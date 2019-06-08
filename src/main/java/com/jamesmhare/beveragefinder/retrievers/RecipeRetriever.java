@@ -49,7 +49,7 @@ public class RecipeRetriever {
         JSONArray resultsArray = (JSONArray) drinkRecipeJSON.get("drinks");
         if (resultsArray != null) {
             JSONObject firstObject = (JSONObject) resultsArray.get(0);
-            if (!firstObject.get("strDrink").toString().equalsIgnoreCase(drink)) {
+            if (!firstObject.get("strDrink").toString().equalsIgnoreCase(drink.replace("&", " "))) {
                 LOGGER.info("Request returned empty. " + drink.replace("&", " ") + " does not exist in the API.");
                 stringBuilder.append("Sorry, the recipe for a " + drink.replace("&", " ") + " could not be found.");
             } else {
