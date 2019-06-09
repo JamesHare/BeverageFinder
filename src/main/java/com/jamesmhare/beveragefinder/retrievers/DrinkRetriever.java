@@ -10,18 +10,24 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-public class RecipeRetriever {
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.URL;
+
+public class DrinkRetriever {
 
     private ApplicationProperties applicationProperties;
-    private static final Logger LOGGER = Logger.getLogger(RecipeRetriever.class);
+    private static final Logger LOGGER = Logger.getLogger(DrinkRetriever.class);
 
-    public RecipeRetriever() {
+    public DrinkRetriever() {
         applicationProperties = new ApplicationProperties();
     }
 
-    public String getRecipe(String drink) {
-        JSONObject drinkRecipeJSON = searchForDrink(drink);
-        return buildRecipeFromSuggestion(drinkRecipeJSON, drink);
+    public String getDrink(String drinkRequest) {
+        JSONObject drinkJSONResult = searchForDrink(drinkRequest);
+        return buildDrinkFromSuggestion(drinkJSONResult, drinkRequest);
     }
 
     private JSONObject searchForDrink(String drink) {
@@ -44,14 +50,14 @@ public class RecipeRetriever {
         return output;
     }
 
-    private String buildRecipeFromSuggestion(JSONObject drinkRecipeJSON, String drink) {
+    private String buildDrinkFromSuggestion(JSONObject drinkJSONResult, String drinkRequest) {
         StringBuilder stringBuilder = new StringBuilder();
-        JSONArray resultsArray = (JSONArray) drinkRecipeJSON.get("drinks");
+        JSONArray resultsArray = (JSONArray) drinkJSONResult.get("drinks");
         if (resultsArray != null) {
             JSONObject firstObject = (JSONObject) resultsArray.get(0);
-            if (!firstObject.get("strDrink").toString().equalsIgnoreCase(drink.replace("&", " "))) {
-                LOGGER.info("Request returned empty. " + drink.replace("&", " ") + " does not exist in the API.");
-                stringBuilder.append("Sorry, the recipe for a " + drink.replace("&", " ") + " could not be found.");
+            if (!firstObject.get("strDrink").toString().equalsIgnoreCase(drinkRequest.replace("&", " "))) {
+                LOGGER.info("Request returned empty. " + drinkRequest.replace("&", " ") + " does not exist in the API.");
+                stringBuilder.append("Sorry, the recipe for a " + drinkRequest.replace("&", " ") + " could not be found.");
             } else {
                 stringBuilder.append(firstObject.get("strDrink") + ": ");
                 extractIngredient(stringBuilder, (String) firstObject.get("strMeasure1"), (String) firstObject.get("strIngredient1"));
@@ -70,10 +76,37 @@ public class RecipeRetriever {
                 extractIngredient(stringBuilder, (String) firstObject.get("strMeasure14"), (String) firstObject.get("strIngredient14"));
                 extractIngredient(stringBuilder, (String) firstObject.get("strMeasure15"), (String) firstObject.get("strIngredient15"));
                 stringBuilder.append("Serve in a " + firstObject.get("strGlass") + ".");
+                stringBuilder.append("::::");
+                stringBuilder.append(firstObject.get("strDrink") + ": " + firstObject.get("strInstructions"));
+                stringBuilder.append("::::");
+                if (!firstObject.get("strDrinkThumb").toString().isEmpty()) {
+                    try {
+                        URL url = new URL(firstObject.get("strDrinkThumb").toString());
+                        InputStream is = url.openStream();
+                        OutputStream os = new FileOutputStream("tmp/images/DrinkImage.jpg");
+
+                        byte[] b = new byte[2048];
+                        int length;
+
+                        while ((length = is.read(b)) != -1) {
+                            os.write(b, 0, length);
+                        }
+                        is.close();
+                        os.close();
+                        stringBuilder.append("true");
+                        LOGGER.info("Drink image was saved.");
+                    } catch (IOException exception) {
+                        stringBuilder.append("false");
+                        LOGGER.error("Drink image could not be saved." + exception.getMessage());
+                    }
+                } else {
+                    stringBuilder.append("false");
+                    LOGGER.info("Drink image did not exist in the API and therefore could not be saved.");
+                }
             }
         } else {
-            LOGGER.info("Request returned empty. " + drink.replace("&", " ") + " does not exist in the API.");
-            stringBuilder.append("Sorry, the recipe for a " + drink.replace("&", " ") + " could not be found.");
+            LOGGER.info("Request returned empty. " + drinkRequest.replace("&", " ") + " does not exist in the API.");
+            stringBuilder.append("Sorry, the recipe for a " + drinkRequest.replace("&", " ") + " could not be found.");
         }
         return stringBuilder.toString().trim();
     }
@@ -87,4 +120,5 @@ public class RecipeRetriever {
             stringBuilder.append(", ");
         }
     }
+
 }

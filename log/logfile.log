@@ -1,0 +1,928 @@
+2019-06-10 20:40:09,179 DEBUG [main] - serialVersionUID: 6175546394599249696
+2019-06-10 20:40:09,180 DEBUG [main] - debug: true
+2019-06-10 20:40:09,180 DEBUG [main] - user: null
+2019-06-10 20:40:09,180 DEBUG [main] - password: null
+2019-06-10 20:40:09,180 DEBUG [main] - httpConf: MyHttpClientConfiguration{httpProxyHost='null', httpProxyUser='null', httpProxyPassword='null', httpProxyPort=-1, httpConnectionTimeout=20000, httpReadTimeout=120000, prettyDebug=false, gzipEnabled=true}
+2019-06-10 20:40:09,180 DEBUG [main] - httpStreamingReadTimeout: 40000
+2019-06-10 20:40:09,181 DEBUG [main] - httpRetryCount: 0
+2019-06-10 20:40:09,181 DEBUG [main] - httpRetryIntervalSeconds: 5
+2019-06-10 20:40:09,181 DEBUG [main] - oAuthConsumerKey: 
+2019-06-10 20:40:09,181 DEBUG [main] - oAuthConsumerSecret: 
+2019-06-10 20:40:09,181 DEBUG [main] - oAuthAccessToken: 
+2019-06-10 20:40:09,181 DEBUG [main] - oAuthAccessTokenSecret: 
+2019-06-10 20:40:09,181 DEBUG [main] - oAuth2TokenType: null
+2019-06-10 20:40:09,182 DEBUG [main] - oAuth2AccessToken: null
+2019-06-10 20:40:09,182 DEBUG [main] - oAuth2Scope: null
+2019-06-10 20:40:09,182 DEBUG [main] - oAuthRequestTokenURL: https://api.twitter.com/oauth/request_token
+2019-06-10 20:40:09,182 DEBUG [main] - oAuthAuthorizationURL: https://api.twitter.com/oauth/authorize
+2019-06-10 20:40:09,182 DEBUG [main] - oAuthAccessTokenURL: https://api.twitter.com/oauth/access_token
+2019-06-10 20:40:09,182 DEBUG [main] - oAuthAuthenticationURL: https://api.twitter.com/oauth/authenticate
+2019-06-10 20:40:09,182 DEBUG [main] - oAuth2TokenURL: https://api.twitter.com/oauth2/token
+2019-06-10 20:40:09,182 DEBUG [main] - oAuth2InvalidateTokenURL: https://api.twitter.com/oauth2/invalidate_token
+2019-06-10 20:40:09,182 DEBUG [main] - restBaseURL: https://api.twitter.com/1.1/
+2019-06-10 20:40:09,183 DEBUG [main] - streamBaseURL: https://stream.twitter.com/1.1/
+2019-06-10 20:40:09,183 DEBUG [main] - userStreamBaseURL: https://userstream.twitter.com/1.1/
+2019-06-10 20:40:09,183 DEBUG [main] - siteStreamBaseURL: https://sitestream.twitter.com/1.1/
+2019-06-10 20:40:09,183 DEBUG [main] - uploadBaseURL: https://upload.twitter.com/1.1/
+2019-06-10 20:40:09,183 DEBUG [main] - dispatcherImpl: twitter4j.DispatcherImpl
+2019-06-10 20:40:09,183 DEBUG [main] - asyncNumThreads: 1
+2019-06-10 20:40:09,183 DEBUG [main] - loggerFactory: null
+2019-06-10 20:40:09,183 DEBUG [main] - contributingTo: -1
+2019-06-10 20:40:09,184 DEBUG [main] - includeMyRetweetEnabled: true
+2019-06-10 20:40:09,184 DEBUG [main] - includeEntitiesEnabled: true
+2019-06-10 20:40:09,184 DEBUG [main] - trimUserEnabled: false
+2019-06-10 20:40:09,184 DEBUG [main] - includeExtAltTextEnabled: true
+2019-06-10 20:40:09,184 DEBUG [main] - tweetModeExtended: false
+2019-06-10 20:40:09,184 DEBUG [main] - includeEmailEnabled: false
+2019-06-10 20:40:09,184 DEBUG [main] - jsonStoreEnabled: false
+2019-06-10 20:40:09,184 DEBUG [main] - mbeanEnabled: false
+2019-06-10 20:40:09,184 DEBUG [main] - userStreamRepliesAllEnabled: false
+2019-06-10 20:40:09,184 DEBUG [main] - userStreamWithFollowingsEnabled: true
+2019-06-10 20:40:09,185 DEBUG [main] - stallWarningsEnabled: true
+2019-06-10 20:40:09,185 DEBUG [main] - applicationOnlyAuthEnabled: false
+2019-06-10 20:40:09,185 DEBUG [main] - mediaProvider: TWITTER
+2019-06-10 20:40:09,185 DEBUG [main] - mediaProviderAPIKey: null
+2019-06-10 20:40:09,185 DEBUG [main] - mediaProviderParameters: null
+2019-06-10 20:40:09,185 DEBUG [main] - daemonEnabled: true
+2019-06-10 20:40:09,185 DEBUG [main] - streamThreadName: 
+2019-06-10 20:40:09,186 DEBUG [main] - instances: [ConfigurationBase{debug=true, user='null', password='null', httpConf=MyHttpClientConfiguration{httpProxyHost='null', httpProxyUser='null', httpProxyPassword='null', httpProxyPort=-1, httpConnectionTimeout=20000, httpReadTimeout=120000, prettyDebug=false, gzipEnabled=true}, httpStreamingReadTimeout=40000, httpRetryCount=0, httpRetryIntervalSeconds=5, oAuthConsumerKey='', oAuthConsumerSecret='', oAuthAccessToken='', oAuthAccessTokenSecret='', oAuth2TokenType='null', oAuth2AccessToken='null', oAuth2Scope='null', oAuthRequestTokenURL='https://api.twitter.com/oauth/request_token', oAuthAuthorizationURL='https://api.twitter.com/oauth/authorize', oAuthAccessTokenURL='https://api.twitter.com/oauth/access_token', oAuthAuthenticationURL='https://api.twitter.com/oauth/authenticate', oAuth2TokenURL='https://api.twitter.com/oauth2/token', oAuth2InvalidateTokenURL='https://api.twitter.com/oauth2/invalidate_token', restBaseURL='https://api.twitter.com/1.1/', streamBaseURL='https://stream.twitter.com/1.1/', userStreamBaseURL='https://userstream.twitter.com/1.1/', siteStreamBaseURL='https://sitestream.twitter.com/1.1/', uploadBaseURL='https://upload.twitter.com/1.1/', dispatcherImpl='twitter4j.DispatcherImpl', asyncNumThreads=1, loggerFactory='null', contributingTo=-1, includeMyRetweetEnabled=true, includeEntitiesEnabled=true, trimUserEnabled=false, includeExtAltTextEnabled=true, tweetModeExtended=false, includeEmailEnabled=false, jsonStoreEnabled=false, mbeanEnabled=false, userStreamRepliesAllEnabled=false, userStreamWithFollowingsEnabled=true, stallWarningsEnabled=true, applicationOnlyAuthEnabled=false, mediaProvider='TWITTER', mediaProviderAPIKey='null', mediaProviderParameters=null, daemonEnabled=true, streamThreadName=''}]
+2019-06-10 20:40:09,221  INFO [Twitter Stream consumer /  [1][initializing]] - Establishing connection.
+2019-06-10 20:40:09,221 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Twitter Stream consumer /  [1][Establishing connection]
+2019-06-10 20:40:09,490 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Request: 
+2019-06-10 20:40:09,490 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - POST https://stream.twitter.com/1.1/statuses/filter.json
+2019-06-10 20:40:09,491 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - OAuth base string: POST&https%3A%2F%2Fstream.twitter.com%2F1.1%2Fstatuses%2Ffilter.json&count%3D0%26follow%3D1122613190993555458%26oauth_consumer_key%3D%26oauth_nonce%3D2274884632%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1560217209%26oauth_token%3D%26oauth_version%3D1.0%26stall_warnings%3Dtrue
+2019-06-10 20:40:09,541 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - OAuth signature: tjbmed3Yth52sWbl82S23VPCaLE=
+2019-06-10 20:40:09,542 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Authorization: ********************************************************************************************************************************************************************************************************
+2019-06-10 20:40:09,542 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client-Version: 4.0.6
+2019-06-10 20:40:09,542 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-4.0.6.xml
+2019-06-10 20:40:09,542 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client: Twitter4J
+2019-06-10 20:40:09,542 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - User-Agent: twitter4j http://twitter4j.org/ /4.0.6
+2019-06-10 20:40:09,542 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Connection: close
+2019-06-10 20:40:09,542 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Accept-Encoding: gzip
+2019-06-10 20:40:09,543 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Post Params: count=0&follow=1122613190993555458&stall_warnings=true
+2019-06-10 20:40:09,913 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Response: 
+2019-06-10 20:40:09,914 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - date: Tue, 11 Jun 2019 01:40:09 GMT
+2019-06-10 20:40:09,914 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - HTTP/1.1 401 Authorization Required
+2019-06-10 20:40:09,914 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - server: tsa_b
+2019-06-10 20:40:09,914 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-tsa-request-body-time: 2
+2019-06-10 20:40:09,914 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-response-time: 8
+2019-06-10 20:40:09,914 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - transfer-encoding: chunked
+2019-06-10 20:40:09,914 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - content-encoding: gzip
+2019-06-10 20:40:09,914 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - www-authenticate: OAuth realm="Firehose"
+2019-06-10 20:40:09,914 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - strict-transport-security: max-age=631138519
+2019-06-10 20:40:09,914 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - set-cookie: guest_id=v1%3A156021720986231444; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:40:09 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:40:09,914 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - set-cookie: personalization_id="v1_pKGV2r00wQAD3Ob3FH+UIg=="; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:40:09 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:40:09,914 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+2019-06-10 20:40:09,915 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-connection-hash: 019c1f2d617985e364758a248f0e3b86
+2019-06-10 20:40:09,915 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - content-type: text/html
+2019-06-10 20:40:09,915 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - connection: close
+2019-06-10 20:40:09,915 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - cache-control: must-revalidate,no-cache,no-store
+2019-06-10 20:40:09,916 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - <html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2019-06-10 20:40:09,917  INFO [Twitter Stream consumer /  [1][Establishing connection]] - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2019-06-10 20:40:09,918 ERROR [Twitter Stream consumer /  [1][Establishing connection]] - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2019-06-10 20:40:09,918  INFO [Twitter Stream consumer /  [1][Establishing connection]] - Waiting for 10000 milliseconds
+2019-06-10 20:40:09,918 DEBUG [Twitter Stream consumer /  [1][Waiting for 10000 milliseconds]] - Twitter Stream consumer /  [1][Waiting for 10000 milliseconds]
+2019-06-10 20:40:19,918 DEBUG [Twitter Stream consumer /  [1][Waiting for 10000 milliseconds]] - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2019-06-10 20:40:19,918  INFO [Twitter Stream consumer /  [1][Waiting for 10000 milliseconds]] - Establishing connection.
+2019-06-10 20:40:19,919 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Twitter Stream consumer /  [1][Establishing connection]
+2019-06-10 20:40:19,919 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Request: 
+2019-06-10 20:40:19,919 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - POST https://stream.twitter.com/1.1/statuses/filter.json
+2019-06-10 20:40:19,919 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - OAuth base string: POST&https%3A%2F%2Fstream.twitter.com%2F1.1%2Fstatuses%2Ffilter.json&count%3D0%26follow%3D1122613190993555458%26oauth_consumer_key%3D%26oauth_nonce%3D2940748776%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1560217219%26oauth_token%3D%26oauth_version%3D1.0%26stall_warnings%3Dtrue
+2019-06-10 20:40:19,919 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - OAuth signature: 6Oxlb7xyYKxtibDYCjIs9ULv7PE=
+2019-06-10 20:40:19,920 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Authorization: ********************************************************************************************************************************************************************************************************
+2019-06-10 20:40:19,920 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client-Version: 4.0.6
+2019-06-10 20:40:19,920 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-4.0.6.xml
+2019-06-10 20:40:19,920 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client: Twitter4J
+2019-06-10 20:40:19,920 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - User-Agent: twitter4j http://twitter4j.org/ /4.0.6
+2019-06-10 20:40:19,920 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Connection: close
+2019-06-10 20:40:19,920 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Accept-Encoding: gzip
+2019-06-10 20:40:19,920 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Post Params: count=0&follow=1122613190993555458&stall_warnings=true
+2019-06-10 20:40:20,110 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Response: 
+2019-06-10 20:40:20,110 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - date: Tue, 11 Jun 2019 01:40:20 GMT
+2019-06-10 20:40:20,110 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - HTTP/1.1 401 Authorization Required
+2019-06-10 20:40:20,110 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - server: tsa_b
+2019-06-10 20:40:20,110 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-tsa-request-body-time: 1
+2019-06-10 20:40:20,110 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-response-time: 8
+2019-06-10 20:40:20,110 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - transfer-encoding: chunked
+2019-06-10 20:40:20,110 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - content-encoding: gzip
+2019-06-10 20:40:20,110 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - www-authenticate: OAuth realm="Firehose"
+2019-06-10 20:40:20,111 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - strict-transport-security: max-age=631138519
+2019-06-10 20:40:20,111 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - set-cookie: guest_id=v1%3A156021722007675866; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:40:20 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:40:20,111 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - set-cookie: personalization_id="v1_vqHqp+dJcu4+V823wno5yQ=="; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:40:20 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:40:20,111 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+2019-06-10 20:40:20,111 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-connection-hash: 568927f07063902817419685f50cbd40
+2019-06-10 20:40:20,111 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - content-type: text/html
+2019-06-10 20:40:20,111 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - connection: close
+2019-06-10 20:40:20,111 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - cache-control: must-revalidate,no-cache,no-store
+2019-06-10 20:40:20,112 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - <html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2019-06-10 20:40:20,112  INFO [Twitter Stream consumer /  [1][Establishing connection]] - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2019-06-10 20:40:20,112 ERROR [Twitter Stream consumer /  [1][Establishing connection]] - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2019-06-10 20:40:20,112  INFO [Twitter Stream consumer /  [1][Establishing connection]] - Waiting for 20000 milliseconds
+2019-06-10 20:40:20,112 DEBUG [Twitter Stream consumer /  [1][Waiting for 20000 milliseconds]] - Twitter Stream consumer /  [1][Waiting for 20000 milliseconds]
+2019-06-10 20:40:24,052 DEBUG [main] - serialVersionUID: 6175546394599249696
+2019-06-10 20:40:24,053 DEBUG [main] - debug: true
+2019-06-10 20:40:24,053 DEBUG [main] - user: null
+2019-06-10 20:40:24,053 DEBUG [main] - password: null
+2019-06-10 20:40:24,053 DEBUG [main] - httpConf: MyHttpClientConfiguration{httpProxyHost='null', httpProxyUser='null', httpProxyPassword='null', httpProxyPort=-1, httpConnectionTimeout=20000, httpReadTimeout=120000, prettyDebug=false, gzipEnabled=true}
+2019-06-10 20:40:24,053 DEBUG [main] - httpStreamingReadTimeout: 40000
+2019-06-10 20:40:24,054 DEBUG [main] - httpRetryCount: 0
+2019-06-10 20:40:24,054 DEBUG [main] - httpRetryIntervalSeconds: 5
+2019-06-10 20:40:24,054 DEBUG [main] - oAuthConsumerKey: 
+2019-06-10 20:40:24,054 DEBUG [main] - oAuthConsumerSecret: 
+2019-06-10 20:40:24,054 DEBUG [main] - oAuthAccessToken: 
+2019-06-10 20:40:24,054 DEBUG [main] - oAuthAccessTokenSecret: 
+2019-06-10 20:40:24,054 DEBUG [main] - oAuth2TokenType: null
+2019-06-10 20:40:24,054 DEBUG [main] - oAuth2AccessToken: null
+2019-06-10 20:40:24,054 DEBUG [main] - oAuth2Scope: null
+2019-06-10 20:40:24,055 DEBUG [main] - oAuthRequestTokenURL: https://api.twitter.com/oauth/request_token
+2019-06-10 20:40:24,055 DEBUG [main] - oAuthAuthorizationURL: https://api.twitter.com/oauth/authorize
+2019-06-10 20:40:24,055 DEBUG [main] - oAuthAccessTokenURL: https://api.twitter.com/oauth/access_token
+2019-06-10 20:40:24,055 DEBUG [main] - oAuthAuthenticationURL: https://api.twitter.com/oauth/authenticate
+2019-06-10 20:40:24,055 DEBUG [main] - oAuth2TokenURL: https://api.twitter.com/oauth2/token
+2019-06-10 20:40:24,055 DEBUG [main] - oAuth2InvalidateTokenURL: https://api.twitter.com/oauth2/invalidate_token
+2019-06-10 20:40:24,055 DEBUG [main] - restBaseURL: https://api.twitter.com/1.1/
+2019-06-10 20:40:24,055 DEBUG [main] - streamBaseURL: https://stream.twitter.com/1.1/
+2019-06-10 20:40:24,055 DEBUG [main] - userStreamBaseURL: https://userstream.twitter.com/1.1/
+2019-06-10 20:40:24,056 DEBUG [main] - siteStreamBaseURL: https://sitestream.twitter.com/1.1/
+2019-06-10 20:40:24,056 DEBUG [main] - uploadBaseURL: https://upload.twitter.com/1.1/
+2019-06-10 20:40:24,056 DEBUG [main] - dispatcherImpl: twitter4j.DispatcherImpl
+2019-06-10 20:40:24,056 DEBUG [main] - asyncNumThreads: 1
+2019-06-10 20:40:24,056 DEBUG [main] - loggerFactory: null
+2019-06-10 20:40:24,056 DEBUG [main] - contributingTo: -1
+2019-06-10 20:40:24,056 DEBUG [main] - includeMyRetweetEnabled: true
+2019-06-10 20:40:24,056 DEBUG [main] - includeEntitiesEnabled: true
+2019-06-10 20:40:24,057 DEBUG [main] - trimUserEnabled: false
+2019-06-10 20:40:24,057 DEBUG [main] - includeExtAltTextEnabled: true
+2019-06-10 20:40:24,057 DEBUG [main] - tweetModeExtended: false
+2019-06-10 20:40:24,057 DEBUG [main] - includeEmailEnabled: false
+2019-06-10 20:40:24,057 DEBUG [main] - jsonStoreEnabled: false
+2019-06-10 20:40:24,057 DEBUG [main] - mbeanEnabled: false
+2019-06-10 20:40:24,057 DEBUG [main] - userStreamRepliesAllEnabled: false
+2019-06-10 20:40:24,057 DEBUG [main] - userStreamWithFollowingsEnabled: true
+2019-06-10 20:40:24,057 DEBUG [main] - stallWarningsEnabled: true
+2019-06-10 20:40:24,057 DEBUG [main] - applicationOnlyAuthEnabled: false
+2019-06-10 20:40:24,058 DEBUG [main] - mediaProvider: TWITTER
+2019-06-10 20:40:24,058 DEBUG [main] - mediaProviderAPIKey: null
+2019-06-10 20:40:24,058 DEBUG [main] - mediaProviderParameters: null
+2019-06-10 20:40:24,058 DEBUG [main] - daemonEnabled: true
+2019-06-10 20:40:24,058 DEBUG [main] - streamThreadName: 
+2019-06-10 20:40:24,058 DEBUG [main] - instances: [ConfigurationBase{debug=true, user='null', password='null', httpConf=MyHttpClientConfiguration{httpProxyHost='null', httpProxyUser='null', httpProxyPassword='null', httpProxyPort=-1, httpConnectionTimeout=20000, httpReadTimeout=120000, prettyDebug=false, gzipEnabled=true}, httpStreamingReadTimeout=40000, httpRetryCount=0, httpRetryIntervalSeconds=5, oAuthConsumerKey='', oAuthConsumerSecret='', oAuthAccessToken='', oAuthAccessTokenSecret='', oAuth2TokenType='null', oAuth2AccessToken='null', oAuth2Scope='null', oAuthRequestTokenURL='https://api.twitter.com/oauth/request_token', oAuthAuthorizationURL='https://api.twitter.com/oauth/authorize', oAuthAccessTokenURL='https://api.twitter.com/oauth/access_token', oAuthAuthenticationURL='https://api.twitter.com/oauth/authenticate', oAuth2TokenURL='https://api.twitter.com/oauth2/token', oAuth2InvalidateTokenURL='https://api.twitter.com/oauth2/invalidate_token', restBaseURL='https://api.twitter.com/1.1/', streamBaseURL='https://stream.twitter.com/1.1/', userStreamBaseURL='https://userstream.twitter.com/1.1/', siteStreamBaseURL='https://sitestream.twitter.com/1.1/', uploadBaseURL='https://upload.twitter.com/1.1/', dispatcherImpl='twitter4j.DispatcherImpl', asyncNumThreads=1, loggerFactory='null', contributingTo=-1, includeMyRetweetEnabled=true, includeEntitiesEnabled=true, trimUserEnabled=false, includeExtAltTextEnabled=true, tweetModeExtended=false, includeEmailEnabled=false, jsonStoreEnabled=false, mbeanEnabled=false, userStreamRepliesAllEnabled=false, userStreamWithFollowingsEnabled=true, stallWarningsEnabled=true, applicationOnlyAuthEnabled=false, mediaProvider='TWITTER', mediaProviderAPIKey='null', mediaProviderParameters=null, daemonEnabled=true, streamThreadName=''}]
+2019-06-10 20:40:24,099  INFO [Twitter Stream consumer /  [1][initializing]] - Establishing connection.
+2019-06-10 20:40:24,099 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Twitter Stream consumer /  [1][Establishing connection]
+2019-06-10 20:40:24,353 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Request: 
+2019-06-10 20:40:24,354 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - POST https://stream.twitter.com/1.1/statuses/filter.json
+2019-06-10 20:40:24,355 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - OAuth base string: POST&https%3A%2F%2Fstream.twitter.com%2F1.1%2Fstatuses%2Ffilter.json&count%3D0%26follow%3D1122613190993555458%26oauth_consumer_key%3D%26oauth_nonce%3D2780195036%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1560217224%26oauth_token%3D%26oauth_version%3D1.0%26stall_warnings%3Dtrue
+2019-06-10 20:40:24,405 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - OAuth signature: qzgnlUDl19nLpW1flduu8//fdfU=
+2019-06-10 20:40:24,406 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Authorization: ************************************************************************************************************************************************************************************************************
+2019-06-10 20:40:24,406 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client-Version: 4.0.6
+2019-06-10 20:40:24,406 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-4.0.6.xml
+2019-06-10 20:40:24,406 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client: Twitter4J
+2019-06-10 20:40:24,406 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - User-Agent: twitter4j http://twitter4j.org/ /4.0.6
+2019-06-10 20:40:24,407 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Connection: close
+2019-06-10 20:40:24,407 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Accept-Encoding: gzip
+2019-06-10 20:40:24,407 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Post Params: count=0&follow=1122613190993555458&stall_warnings=true
+2019-06-10 20:40:24,706 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Response: 
+2019-06-10 20:40:24,707 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - date: Tue, 11 Jun 2019 01:40:24 GMT
+2019-06-10 20:40:24,707 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - HTTP/1.1 401 Authorization Required
+2019-06-10 20:40:24,707 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - server: tsa_b
+2019-06-10 20:40:24,707 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-tsa-request-body-time: 1
+2019-06-10 20:40:24,707 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-response-time: 9
+2019-06-10 20:40:24,707 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - transfer-encoding: chunked
+2019-06-10 20:40:24,708 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - content-encoding: gzip
+2019-06-10 20:40:24,708 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - www-authenticate: OAuth realm="Firehose"
+2019-06-10 20:40:24,708 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - strict-transport-security: max-age=631138519
+2019-06-10 20:40:24,708 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - set-cookie: guest_id=v1%3A156021722466042512; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:40:24 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:40:24,708 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - set-cookie: personalization_id="v1_P1yupkvPKx7i5WwBeMIR1g=="; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:40:24 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:40:24,708 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+2019-06-10 20:40:24,708 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-connection-hash: cfb8c8d9e06f6d81e0e83be65fb52a98
+2019-06-10 20:40:24,708 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - content-type: text/html
+2019-06-10 20:40:24,708 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - connection: close
+2019-06-10 20:40:24,708 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - cache-control: must-revalidate,no-cache,no-store
+2019-06-10 20:40:24,710 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - <html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2019-06-10 20:40:24,712  INFO [Twitter Stream consumer /  [1][Establishing connection]] - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2019-06-10 20:40:24,712 ERROR [Twitter Stream consumer /  [1][Establishing connection]] - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2019-06-10 20:40:24,712  INFO [Twitter Stream consumer /  [1][Establishing connection]] - Waiting for 10000 milliseconds
+2019-06-10 20:40:24,712 DEBUG [Twitter Stream consumer /  [1][Waiting for 10000 milliseconds]] - Twitter Stream consumer /  [1][Waiting for 10000 milliseconds]
+2019-06-10 20:40:43,176 DEBUG [main] - serialVersionUID: 6175546394599249696
+2019-06-10 20:40:43,177 DEBUG [main] - debug: true
+2019-06-10 20:40:43,177 DEBUG [main] - user: null
+2019-06-10 20:40:43,177 DEBUG [main] - password: null
+2019-06-10 20:40:43,177 DEBUG [main] - httpConf: MyHttpClientConfiguration{httpProxyHost='null', httpProxyUser='null', httpProxyPassword='null', httpProxyPort=-1, httpConnectionTimeout=20000, httpReadTimeout=120000, prettyDebug=false, gzipEnabled=true}
+2019-06-10 20:40:43,177 DEBUG [main] - httpStreamingReadTimeout: 40000
+2019-06-10 20:40:43,177 DEBUG [main] - httpRetryCount: 0
+2019-06-10 20:40:43,178 DEBUG [main] - httpRetryIntervalSeconds: 5
+2019-06-10 20:40:43,178 DEBUG [main] - oAuthConsumerKey: 1XN6N8i706RdOSBUFwFcs2MmT
+2019-06-10 20:40:43,178 DEBUG [main] - oAuthConsumerSecret: **************************************************
+2019-06-10 20:40:43,178 DEBUG [main] - oAuthAccessToken: 1122613190993555458-13rbJJ6gip7xe7mXezt0QS9pbUsfdV
+2019-06-10 20:40:43,179 DEBUG [main] - oAuthAccessTokenSecret: *********************************************
+2019-06-10 20:40:43,179 DEBUG [main] - oAuth2TokenType: null
+2019-06-10 20:40:43,179 DEBUG [main] - oAuth2AccessToken: null
+2019-06-10 20:40:43,179 DEBUG [main] - oAuth2Scope: null
+2019-06-10 20:40:43,179 DEBUG [main] - oAuthRequestTokenURL: https://api.twitter.com/oauth/request_token
+2019-06-10 20:40:43,179 DEBUG [main] - oAuthAuthorizationURL: https://api.twitter.com/oauth/authorize
+2019-06-10 20:40:43,179 DEBUG [main] - oAuthAccessTokenURL: https://api.twitter.com/oauth/access_token
+2019-06-10 20:40:43,179 DEBUG [main] - oAuthAuthenticationURL: https://api.twitter.com/oauth/authenticate
+2019-06-10 20:40:43,179 DEBUG [main] - oAuth2TokenURL: https://api.twitter.com/oauth2/token
+2019-06-10 20:40:43,180 DEBUG [main] - oAuth2InvalidateTokenURL: https://api.twitter.com/oauth2/invalidate_token
+2019-06-10 20:40:43,180 DEBUG [main] - restBaseURL: https://api.twitter.com/1.1/
+2019-06-10 20:40:43,180 DEBUG [main] - streamBaseURL: https://stream.twitter.com/1.1/
+2019-06-10 20:40:43,180 DEBUG [main] - userStreamBaseURL: https://userstream.twitter.com/1.1/
+2019-06-10 20:40:43,180 DEBUG [main] - siteStreamBaseURL: https://sitestream.twitter.com/1.1/
+2019-06-10 20:40:43,180 DEBUG [main] - uploadBaseURL: https://upload.twitter.com/1.1/
+2019-06-10 20:40:43,180 DEBUG [main] - dispatcherImpl: twitter4j.DispatcherImpl
+2019-06-10 20:40:43,180 DEBUG [main] - asyncNumThreads: 1
+2019-06-10 20:40:43,180 DEBUG [main] - loggerFactory: null
+2019-06-10 20:40:43,181 DEBUG [main] - contributingTo: -1
+2019-06-10 20:40:43,181 DEBUG [main] - includeMyRetweetEnabled: true
+2019-06-10 20:40:43,181 DEBUG [main] - includeEntitiesEnabled: true
+2019-06-10 20:40:43,181 DEBUG [main] - trimUserEnabled: false
+2019-06-10 20:40:43,181 DEBUG [main] - includeExtAltTextEnabled: true
+2019-06-10 20:40:43,181 DEBUG [main] - tweetModeExtended: false
+2019-06-10 20:40:43,181 DEBUG [main] - includeEmailEnabled: false
+2019-06-10 20:40:43,181 DEBUG [main] - jsonStoreEnabled: false
+2019-06-10 20:40:43,181 DEBUG [main] - mbeanEnabled: false
+2019-06-10 20:40:43,181 DEBUG [main] - userStreamRepliesAllEnabled: false
+2019-06-10 20:40:43,182 DEBUG [main] - userStreamWithFollowingsEnabled: true
+2019-06-10 20:40:43,182 DEBUG [main] - stallWarningsEnabled: true
+2019-06-10 20:40:43,182 DEBUG [main] - applicationOnlyAuthEnabled: false
+2019-06-10 20:40:43,182 DEBUG [main] - mediaProvider: TWITTER
+2019-06-10 20:40:43,182 DEBUG [main] - mediaProviderAPIKey: null
+2019-06-10 20:40:43,182 DEBUG [main] - mediaProviderParameters: null
+2019-06-10 20:40:43,182 DEBUG [main] - daemonEnabled: true
+2019-06-10 20:40:43,182 DEBUG [main] - streamThreadName: 
+2019-06-10 20:40:43,183 DEBUG [main] - instances: [ConfigurationBase{debug=true, user='null', password='null', httpConf=MyHttpClientConfiguration{httpProxyHost='null', httpProxyUser='null', httpProxyPassword='null', httpProxyPort=-1, httpConnectionTimeout=20000, httpReadTimeout=120000, prettyDebug=false, gzipEnabled=true}, httpStreamingReadTimeout=40000, httpRetryCount=0, httpRetryIntervalSeconds=5, oAuthConsumerKey='1XN6N8i706RdOSBUFwFcs2MmT', oAuthConsumerSecret='q5afIxHxSGLkm7MTUQsgrI2nfwguozgr5wx4fILXSKLblqs1wT', oAuthAccessToken='1122613190993555458-13rbJJ6gip7xe7mXezt0QS9pbUsfdV', oAuthAccessTokenSecret='WeuNXxbZEKFLRk23tQ8Qcetai9zKjXcY9FiN1VRWyTSLP', oAuth2TokenType='null', oAuth2AccessToken='null', oAuth2Scope='null', oAuthRequestTokenURL='https://api.twitter.com/oauth/request_token', oAuthAuthorizationURL='https://api.twitter.com/oauth/authorize', oAuthAccessTokenURL='https://api.twitter.com/oauth/access_token', oAuthAuthenticationURL='https://api.twitter.com/oauth/authenticate', oAuth2TokenURL='https://api.twitter.com/oauth2/token', oAuth2InvalidateTokenURL='https://api.twitter.com/oauth2/invalidate_token', restBaseURL='https://api.twitter.com/1.1/', streamBaseURL='https://stream.twitter.com/1.1/', userStreamBaseURL='https://userstream.twitter.com/1.1/', siteStreamBaseURL='https://sitestream.twitter.com/1.1/', uploadBaseURL='https://upload.twitter.com/1.1/', dispatcherImpl='twitter4j.DispatcherImpl', asyncNumThreads=1, loggerFactory='null', contributingTo=-1, includeMyRetweetEnabled=true, includeEntitiesEnabled=true, trimUserEnabled=false, includeExtAltTextEnabled=true, tweetModeExtended=false, includeEmailEnabled=false, jsonStoreEnabled=false, mbeanEnabled=false, userStreamRepliesAllEnabled=false, userStreamWithFollowingsEnabled=true, stallWarningsEnabled=true, applicationOnlyAuthEnabled=false, mediaProvider='TWITTER', mediaProviderAPIKey='null', mediaProviderParameters=null, daemonEnabled=true, streamThreadName=''}]
+2019-06-10 20:40:43,217  INFO [Twitter Stream consumer /  [1][initializing]] - Establishing connection.
+2019-06-10 20:40:43,217 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Twitter Stream consumer /  [1][Establishing connection]
+2019-06-10 20:40:43,473 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Request: 
+2019-06-10 20:40:43,473 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - POST https://stream.twitter.com/1.1/statuses/filter.json
+2019-06-10 20:40:43,474 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - OAuth base string: POST&https%3A%2F%2Fstream.twitter.com%2F1.1%2Fstatuses%2Ffilter.json&count%3D0%26follow%3D1122613190993555458%26oauth_consumer_key%3D1XN6N8i706RdOSBUFwFcs2MmT%26oauth_nonce%3D1642921815%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1560217243%26oauth_token%3D1122613190993555458-13rbJJ6gip7xe7mXezt0QS9pbUsfdV%26oauth_version%3D1.0%26stall_warnings%3Dtrue
+2019-06-10 20:40:43,526 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - OAuth signature: FMHp9FVt08T/+/AXP2wBj9jCALs=
+2019-06-10 20:40:43,527 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Authorization: *****************************************************************************************************************************************************************************************************************************************************************************************
+2019-06-10 20:40:43,527 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client-Version: 4.0.6
+2019-06-10 20:40:43,527 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-4.0.6.xml
+2019-06-10 20:40:43,527 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client: Twitter4J
+2019-06-10 20:40:43,527 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - User-Agent: twitter4j http://twitter4j.org/ /4.0.6
+2019-06-10 20:40:43,527 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Connection: close
+2019-06-10 20:40:43,528 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Accept-Encoding: gzip
+2019-06-10 20:40:43,528 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Post Params: count=0&follow=1122613190993555458&stall_warnings=true
+2019-06-10 20:41:06,156 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Response: 
+2019-06-10 20:41:06,157 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - date: Tue, 11 Jun 2019 01:40:43 GMT
+2019-06-10 20:41:06,158 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - HTTP/1.1 200 OK
+2019-06-10 20:41:06,158 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - set-cookie: guest_id=v1%3A156021724382362355; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:40:43 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:41:06,158 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - set-cookie: personalization_id="v1_akuK9htGv9XtS49/1CA3UQ=="; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:40:43 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:41:06,158 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - server: tsa_b
+2019-06-10 20:41:06,158 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-tsa-request-body-time: 1
+2019-06-10 20:41:06,158 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-response-time: 26
+2019-06-10 20:41:06,158 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - transfer-encoding: chunked
+2019-06-10 20:41:06,158 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-connection-hash: cb2fc930bf6fc2b3d488cc79bd610300
+2019-06-10 20:41:06,158 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - content-encoding: gzip
+2019-06-10 20:41:06,158 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - content-type: application/json
+2019-06-10 20:41:06,158 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - connection: close
+2019-06-10 20:41:06,159 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - strict-transport-security: max-age=631138519
+2019-06-10 20:41:06,159  INFO [Twitter Stream consumer /  [1][Establishing connection]] - Connection established.
+2019-06-10 20:41:06,159  INFO [Twitter Stream consumer /  [1][Establishing connection]] - Receiving status stream.
+2019-06-10 20:41:06,159 DEBUG [Twitter Stream consumer /  [1][Receiving stream]] - Twitter Stream consumer /  [1][Receiving stream]
+2019-06-10 20:41:08,500 DEBUG [Twitter4J Async Dispatcher[0]] - Received:{"in_reply_to_status_id_str":null,"in_reply_to_status_id":null,"created_at":"Tue Jun 11 01:41:03 +0000 2019","in_reply_to_user_id_str":"1122613190993555458","source":"<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>","retweet_count":0,"retweeted":false,"geo":null,"filter_level":"low","in_reply_to_screen_name":"BeverageFinder","is_quote_status":false,"id_str":"1138259818379194368","in_reply_to_user_id":1122613190993555458,"favorite_count":0,"id":1138259818379194368,"text":"@BeverageFinder pina colada","place":null,"lang":"es","quote_count":0,"favorited":false,"coordinates":null,"truncated":false,"timestamp_ms":"1560217263203","reply_count":0,"entities":{"urls":[],"hashtags":[],"user_mentions":[{"indices":[0,15],"screen_name":"BeverageFinder","id_str":"1122613190993555458","name":"BeverageFinder","id":1122613190993555458}],"symbols":[]},"contributors":null,"user":{"utc_offset":null,"friends_count":98,"profile_image_url_https":"https://pbs.twimg.com/profile_images/898997535968305152/m5c92_Vb_normal.jpg","listed_count":0,"profile_background_image_url":"http://abs.twimg.com/images/themes/theme1/bg.png","default_profile_image":false,"favourites_count":250,"description":"Software Engineer @Cerner. Passionate about Software Engineering and the Themed Entertainment Industry. View my portfolio on Github: https://bit.ly/2SZsWeY","created_at":"Sat Aug 19 01:56:25 +0000 2017","is_translator":false,"profile_background_image_url_https":"https://abs.twimg.com/images/themes/theme1/bg.png","protected":false,"screen_name":"JamesHareUK","id_str":"898725309113135104","profile_link_color":"19CF86","translator_type":"none","id":898725309113135104,"geo_enabled":false,"profile_background_color":"000000","lang":null,"profile_sidebar_border_color":"000000","profile_text_color":"000000","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/898997535968305152/m5c92_Vb_normal.jpg","time_zone":null,"url":"https://github.com/jameshare","contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/898725309113135104/1503172677","statuses_count":96,"follow_request_sent":null,"followers_count":12,"profile_use_background_image":false,"default_profile":false,"following":null,"name":"James Hare","location":"Kansas City, MO","profile_sidebar_fill_color":"000000","notifications":null}}
+2019-06-10 20:41:09,413  INFO [Twitter4J Async Dispatcher[0]] - Drink image was saved.
+2019-06-10 20:41:09,414 DEBUG [Twitter4J Async Dispatcher[0]] - Request: 
+2019-06-10 20:41:09,414 DEBUG [Twitter4J Async Dispatcher[0]] - POST https://api.twitter.com/1.1/statuses/update_with_media.json
+2019-06-10 20:41:09,415 DEBUG [Twitter4J Async Dispatcher[0]] - OAuth base string: POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate_with_media.json&oauth_consumer_key%3D1XN6N8i706RdOSBUFwFcs2MmT%26oauth_nonce%3D1874170547%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1560217269%26oauth_token%3D1122613190993555458-13rbJJ6gip7xe7mXezt0QS9pbUsfdV%26oauth_version%3D1.0
+2019-06-10 20:41:09,415 DEBUG [Twitter4J Async Dispatcher[0]] - OAuth signature: Zc+BhrP1ItHStMpUy6VVfurHFBk=
+2019-06-10 20:41:09,416 DEBUG [Twitter4J Async Dispatcher[0]] - Authorization: *************************************************************************************************************************************************************************************************************************************************************************************
+2019-06-10 20:41:09,416 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client-Version: 4.0.6
+2019-06-10 20:41:09,416 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-4.0.6.xml
+2019-06-10 20:41:09,416 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client: Twitter4J
+2019-06-10 20:41:09,416 DEBUG [Twitter4J Async Dispatcher[0]] - User-Agent: twitter4j http://twitter4j.org/ /4.0.6
+2019-06-10 20:41:09,416 DEBUG [Twitter4J Async Dispatcher[0]] - Accept-Encoding: gzip
+2019-06-10 20:41:09,597 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217269416
+
+2019-06-10 20:41:09,598 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="status"
+
+2019-06-10 20:41:09,598 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:41:09,598 DEBUG [Twitter4J Async Dispatcher[0]] - @JamesHareUK Pina Colada: 3 oz  Light rum, 3 tblsp  Coconut milk, 3 tblsp  Pineapple, Serve in a Collins glass.
+2019-06-10 20:41:09,598 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:09,598 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217269416
+
+2019-06-10 20:41:09,598 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="in_reply_to_status_id"
+
+2019-06-10 20:41:09,598 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:41:09,598 DEBUG [Twitter4J Async Dispatcher[0]] - 1138259818379194368
+2019-06-10 20:41:09,599 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:09,599 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217269416
+
+2019-06-10 20:41:09,599 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="media[]"; filename="DrinkImage.jpg"
+
+2019-06-10 20:41:09,599 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: image/jpeg
+
+
+2019-06-10 20:41:09,600 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:09,600 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217269416
+
+2019-06-10 20:41:09,600 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="possibly_sensitive"
+
+2019-06-10 20:41:09,600 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:41:09,600 DEBUG [Twitter4J Async Dispatcher[0]] - false
+2019-06-10 20:41:09,600 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:09,600 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217269416
+
+2019-06-10 20:41:09,600 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="include_entities"
+
+2019-06-10 20:41:09,600 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:41:09,600 DEBUG [Twitter4J Async Dispatcher[0]] - true
+2019-06-10 20:41:09,600 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:09,601 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217269416
+
+2019-06-10 20:41:09,601 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="include_ext_alt_text"
+
+2019-06-10 20:41:09,601 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:41:09,601 DEBUG [Twitter4J Async Dispatcher[0]] - true
+2019-06-10 20:41:09,601 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:09,601 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217269416--
+
+2019-06-10 20:41:09,603 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:10,745 DEBUG [Twitter4J Async Dispatcher[0]] - Response: 
+2019-06-10 20:41:10,745 DEBUG [Twitter4J Async Dispatcher[0]] - date: Tue, 11 Jun 2019 01:41:10 GMT
+2019-06-10 20:41:10,745 DEBUG [Twitter4J Async Dispatcher[0]] - HTTP/1.1 200 OK
+2019-06-10 20:41:10,746 DEBUG [Twitter4J Async Dispatcher[0]] - server: tsa_b
+2019-06-10 20:41:10,746 DEBUG [Twitter4J Async Dispatcher[0]] - content-length: 1240
+2019-06-10 20:41:10,746 DEBUG [Twitter4J Async Dispatcher[0]] - expires: Tue, 31 Mar 1981 05:00:00 GMT
+2019-06-10 20:41:10,746 DEBUG [Twitter4J Async Dispatcher[0]] - x-response-time: 766
+2019-06-10 20:41:10,746 DEBUG [Twitter4J Async Dispatcher[0]] - x-frame-options: SAMEORIGIN
+2019-06-10 20:41:10,746 DEBUG [Twitter4J Async Dispatcher[0]] - content-encoding: gzip
+2019-06-10 20:41:10,746 DEBUG [Twitter4J Async Dispatcher[0]] - x-transaction: 00e982b9001f02b5
+2019-06-10 20:41:10,746 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: guest_id=v1%3A156021726984788770; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:41:10 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:41:10,746 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: lang=en; Path=/
+2019-06-10 20:41:10,746 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: personalization_id="v1_SIXbR92Cv5xi2ZPJpx8Tng=="; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:41:10 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:41:10,746 DEBUG [Twitter4J Async Dispatcher[0]] - last-modified: Tue, 11 Jun 2019 01:41:10 GMT
+2019-06-10 20:41:10,746 DEBUG [Twitter4J Async Dispatcher[0]] - content-disposition: attachment; filename=json.json
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - x-connection-hash: 8b249277f39cff69b0161c94714f7869
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - x-twitter-response-tags: BouncerCompliant
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - content-type: application/json;charset=utf-8
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - x-tsa-request-body-time: 221
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-class: photos
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - strict-transport-security: max-age=631138519
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - pragma: no-cache
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-reset: 1560296734
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-limit: 6000
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - x-content-type-options: nosniff
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-remaining: 5989
+2019-06-10 20:41:10,747 DEBUG [Twitter4J Async Dispatcher[0]] - x-access-level: read-write-directmessages
+2019-06-10 20:41:10,748 DEBUG [Twitter4J Async Dispatcher[0]] - status: 200 OK
+2019-06-10 20:41:10,751 DEBUG [Twitter4J Async Dispatcher[0]] - {"extended_entities":{"media":[{"display_url":"pic.twitter.com/1Ui5YkJJUw","indices":[112,135],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138259846283890688","expanded_url":"https://twitter.com/BeverageFinder/status/1138259847961554945/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vpTKfXkAAgh28.jpg","id":1138259846283890688,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vpTKfXkAAgh28.jpg","url":"https://t.co/1Ui5YkJJUw"}]},"in_reply_to_status_id_str":"1138259818379194368","in_reply_to_status_id":1138259818379194368,"created_at":"Tue Jun 11 01:41:10 +0000 2019","in_reply_to_user_id_str":"898725309113135104","source":"<a href=\"https://twitter.com\" rel=\"nofollow\">Entertainment Suggester<\/a>","retweet_count":0,"retweeted":false,"geo":null,"in_reply_to_screen_name":"JamesHareUK","is_quote_status":false,"id_str":"1138259847961554945","in_reply_to_user_id":898725309113135104,"favorite_count":0,"id":1138259847961554945,"text":"@JamesHareUK Pina Colada: 3 oz  Light rum, 3 tblsp  Coconut milk, 3 tblsp  Pineapple, Serve in a Collins glass. https://t.co/1Ui5YkJJUw","place":null,"lang":"en","favorited":false,"possibly_sensitive":false,"coordinates":null,"truncated":false,"entities":{"urls":[],"hashtags":[],"media":[{"display_url":"pic.twitter.com/1Ui5YkJJUw","indices":[112,135],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138259846283890688","expanded_url":"https://twitter.com/BeverageFinder/status/1138259847961554945/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vpTKfXkAAgh28.jpg","id":1138259846283890688,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vpTKfXkAAgh28.jpg","url":"https://t.co/1Ui5YkJJUw"}],"user_mentions":[{"indices":[0,12],"screen_name":"JamesHareUK","id_str":"898725309113135104","name":"James Hare","id":898725309113135104}],"symbols":[]},"contributors":null,"user":{"utc_offset":null,"friends_count":0,"profile_image_url_https":"https://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","listed_count":0,"profile_background_image_url":null,"default_profile_image":false,"favourites_count":0,"description":"I am a helpful application that will reply with a recipe to a tweet containing a drink name. e.g. tweet \"margarita\" @BeverageFinder. Created by @JamesHareUK","created_at":"Sun Apr 28 21:26:56 +0000 2019","is_translator":false,"profile_background_image_url_https":null,"protected":false,"screen_name":"BeverageFinder","id_str":"1122613190993555458","profile_link_color":"1DA1F2","is_translation_enabled":false,"translator_type":"none","id":1122613190993555458,"geo_enabled":false,"profile_background_color":"F5F8FA","lang":null,"has_extended_profile":false,"profile_sidebar_border_color":"C0DEED","profile_text_color":"333333","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","time_zone":null,"url":null,"contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/1122613190993555458/1559704725","entities":{"description":{"urls":[]}},"statuses_count":9,"follow_request_sent":false,"followers_count":1,"profile_use_background_image":true,"default_profile":true,"following":false,"name":"BeverageFinder","location":"","profile_sidebar_fill_color":"DDEEF6","notifications":false}}
+2019-06-10 20:41:10,754  INFO [Twitter4J Async Dispatcher[0]] - Tweet 1 of 2 sent to JamesHareUK
+2019-06-10 20:41:10,755 DEBUG [Twitter4J Async Dispatcher[0]] - Request: 
+2019-06-10 20:41:10,755 DEBUG [Twitter4J Async Dispatcher[0]] - POST https://api.twitter.com/1.1/statuses/update_with_media.json
+2019-06-10 20:41:10,755 DEBUG [Twitter4J Async Dispatcher[0]] - OAuth base string: POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate_with_media.json&oauth_consumer_key%3D1XN6N8i706RdOSBUFwFcs2MmT%26oauth_nonce%3D1437392546%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1560217270%26oauth_token%3D1122613190993555458-13rbJJ6gip7xe7mXezt0QS9pbUsfdV%26oauth_version%3D1.0
+2019-06-10 20:41:10,755 DEBUG [Twitter4J Async Dispatcher[0]] - OAuth signature: K/XWSnJcG0UT5v2mLBz517/rX7M=
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - Authorization: ***************************************************************************************************************************************************************************************************************************************************************************************
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client-Version: 4.0.6
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-4.0.6.xml
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client: Twitter4J
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - User-Agent: twitter4j http://twitter4j.org/ /4.0.6
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - Accept-Encoding: gzip
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217270756
+
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="status"
+
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - @JamesHareUK Pina Colada: Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve.
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217270756
+
+2019-06-10 20:41:10,756 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="in_reply_to_status_id"
+
+2019-06-10 20:41:10,757 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:41:10,757 DEBUG [Twitter4J Async Dispatcher[0]] - 1138259818379194368
+2019-06-10 20:41:10,757 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:10,757 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217270756
+
+2019-06-10 20:41:10,757 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="media[]"; filename="DrinkImage.jpg"
+
+2019-06-10 20:41:10,757 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: image/jpeg
+
+
+2019-06-10 20:41:10,757 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:10,757 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217270756
+
+2019-06-10 20:41:10,757 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="possibly_sensitive"
+
+2019-06-10 20:41:10,757 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:41:10,757 DEBUG [Twitter4J Async Dispatcher[0]] - false
+2019-06-10 20:41:10,757 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:10,758 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217270756
+
+2019-06-10 20:41:10,758 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="include_entities"
+
+2019-06-10 20:41:10,758 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:41:10,758 DEBUG [Twitter4J Async Dispatcher[0]] - true
+2019-06-10 20:41:10,758 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:10,758 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217270756
+
+2019-06-10 20:41:10,758 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="include_ext_alt_text"
+
+2019-06-10 20:41:10,758 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:41:10,758 DEBUG [Twitter4J Async Dispatcher[0]] - true
+2019-06-10 20:41:10,758 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:10,758 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217270756--
+
+2019-06-10 20:41:10,758 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:41:11,586 DEBUG [Twitter4J Async Dispatcher[0]] - Response: 
+2019-06-10 20:41:11,586 DEBUG [Twitter4J Async Dispatcher[0]] - date: Tue, 11 Jun 2019 01:41:11 GMT
+2019-06-10 20:41:11,586 DEBUG [Twitter4J Async Dispatcher[0]] - HTTP/1.1 200 OK
+2019-06-10 20:41:11,586 DEBUG [Twitter4J Async Dispatcher[0]] - server: tsa_b
+2019-06-10 20:41:11,586 DEBUG [Twitter4J Async Dispatcher[0]] - content-length: 1247
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - expires: Tue, 31 Mar 1981 05:00:00 GMT
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - x-response-time: 707
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - x-frame-options: SAMEORIGIN
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - content-encoding: gzip
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - x-transaction: 00c1793a000f82fa
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: guest_id=v1%3A156021727084558765; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:41:11 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: lang=en; Path=/
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: personalization_id="v1_PVlXGsSBftBDuc1BujBfAQ=="; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:41:11 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - last-modified: Tue, 11 Jun 2019 01:41:11 GMT
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - content-disposition: attachment; filename=json.json
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - x-connection-hash: 8b249277f39cff69b0161c94714f7869
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - x-twitter-response-tags: BouncerCompliant
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - content-type: application/json;charset=utf-8
+2019-06-10 20:41:11,587 DEBUG [Twitter4J Async Dispatcher[0]] - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+2019-06-10 20:41:11,588 DEBUG [Twitter4J Async Dispatcher[0]] - x-tsa-request-body-time: 61
+2019-06-10 20:41:11,588 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-class: photos
+2019-06-10 20:41:11,588 DEBUG [Twitter4J Async Dispatcher[0]] - strict-transport-security: max-age=631138519
+2019-06-10 20:41:11,588 DEBUG [Twitter4J Async Dispatcher[0]] - pragma: no-cache
+2019-06-10 20:41:11,588 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-reset: 1560296734
+2019-06-10 20:41:11,588 DEBUG [Twitter4J Async Dispatcher[0]] - x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+2019-06-10 20:41:11,588 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-limit: 6000
+2019-06-10 20:41:11,588 DEBUG [Twitter4J Async Dispatcher[0]] - x-content-type-options: nosniff
+2019-06-10 20:41:11,588 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-remaining: 5988
+2019-06-10 20:41:11,588 DEBUG [Twitter4J Async Dispatcher[0]] - x-access-level: read-write-directmessages
+2019-06-10 20:41:11,588 DEBUG [Twitter4J Async Dispatcher[0]] - status: 200 OK
+2019-06-10 20:41:11,590 DEBUG [Twitter4J Async Dispatcher[0]] - {"extended_entities":{"media":[{"display_url":"pic.twitter.com/UtFtIQjnxw","indices":[116,139],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138259850478202880","expanded_url":"https://twitter.com/BeverageFinder/status/1138259852113960960/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vpTaHXsAAlJLg.jpg","id":1138259850478202880,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vpTaHXsAAlJLg.jpg","url":"https://t.co/UtFtIQjnxw"}]},"in_reply_to_status_id_str":"1138259818379194368","in_reply_to_status_id":1138259818379194368,"created_at":"Tue Jun 11 01:41:11 +0000 2019","in_reply_to_user_id_str":"898725309113135104","source":"<a href=\"https://twitter.com\" rel=\"nofollow\">Entertainment Suggester<\/a>","retweet_count":0,"retweeted":false,"geo":null,"in_reply_to_screen_name":"JamesHareUK","is_quote_status":false,"id_str":"1138259852113960960","in_reply_to_user_id":898725309113135104,"favorite_count":0,"id":1138259852113960960,"text":"@JamesHareUK Pina Colada: Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve. https://t.co/UtFtIQjnxw","place":null,"lang":"en","favorited":false,"possibly_sensitive":false,"coordinates":null,"truncated":false,"entities":{"urls":[],"hashtags":[],"media":[{"display_url":"pic.twitter.com/UtFtIQjnxw","indices":[116,139],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138259850478202880","expanded_url":"https://twitter.com/BeverageFinder/status/1138259852113960960/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vpTaHXsAAlJLg.jpg","id":1138259850478202880,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vpTaHXsAAlJLg.jpg","url":"https://t.co/UtFtIQjnxw"}],"user_mentions":[{"indices":[0,12],"screen_name":"JamesHareUK","id_str":"898725309113135104","name":"James Hare","id":898725309113135104}],"symbols":[]},"contributors":null,"user":{"utc_offset":null,"friends_count":0,"profile_image_url_https":"https://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","listed_count":0,"profile_background_image_url":null,"default_profile_image":false,"favourites_count":0,"description":"I am a helpful application that will reply with a recipe to a tweet containing a drink name. e.g. tweet \"margarita\" @BeverageFinder. Created by @JamesHareUK","created_at":"Sun Apr 28 21:26:56 +0000 2019","is_translator":false,"profile_background_image_url_https":null,"protected":false,"screen_name":"BeverageFinder","id_str":"1122613190993555458","profile_link_color":"1DA1F2","is_translation_enabled":false,"translator_type":"none","id":1122613190993555458,"geo_enabled":false,"profile_background_color":"F5F8FA","lang":null,"has_extended_profile":false,"profile_sidebar_border_color":"C0DEED","profile_text_color":"333333","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","time_zone":null,"url":null,"contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/1122613190993555458/1559704725","entities":{"description":{"urls":[]}},"statuses_count":10,"follow_request_sent":false,"followers_count":1,"profile_use_background_image":true,"default_profile":true,"following":false,"name":"BeverageFinder","location":"","profile_sidebar_fill_color":"DDEEF6","notifications":false}}
+2019-06-10 20:41:11,591  INFO [Twitter4J Async Dispatcher[0]] - Tweet 2 of 2 sent to JamesHareUK
+2019-06-10 20:41:15,864 DEBUG [Twitter4J Async Dispatcher[0]] - Received:{"extended_entities":{"media":[{"display_url":"pic.twitter.com/1Ui5YkJJUw","indices":[112,135],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138259846283890688","expanded_url":"https://twitter.com/BeverageFinder/status/1138259847961554945/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vpTKfXkAAgh28.jpg","id":1138259846283890688,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vpTKfXkAAgh28.jpg","url":"https://t.co/1Ui5YkJJUw"}]},"in_reply_to_status_id_str":"1138259818379194368","in_reply_to_status_id":1138259818379194368,"created_at":"Tue Jun 11 01:41:10 +0000 2019","in_reply_to_user_id_str":"898725309113135104","source":"<a href=\"https://twitter.com\" rel=\"nofollow\">Entertainment Suggester<\/a>","retweet_count":0,"retweeted":false,"geo":null,"filter_level":"low","in_reply_to_screen_name":"JamesHareUK","is_quote_status":false,"id_str":"1138259847961554945","in_reply_to_user_id":898725309113135104,"favorite_count":0,"id":1138259847961554945,"text":"@JamesHareUK Pina Colada: 3 oz  Light rum, 3 tblsp  Coconut milk, 3 tblsp  Pineapple, Serve in a Collins glass. https://t.co/1Ui5YkJJUw","place":null,"lang":"en","quote_count":0,"favorited":false,"possibly_sensitive":false,"coordinates":null,"truncated":false,"timestamp_ms":"1560217270256","reply_count":0,"entities":{"urls":[],"hashtags":[],"media":[{"display_url":"pic.twitter.com/1Ui5YkJJUw","indices":[112,135],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138259846283890688","expanded_url":"https://twitter.com/BeverageFinder/status/1138259847961554945/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vpTKfXkAAgh28.jpg","id":1138259846283890688,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vpTKfXkAAgh28.jpg","url":"https://t.co/1Ui5YkJJUw"}],"user_mentions":[{"indices":[0,12],"screen_name":"JamesHareUK","id_str":"898725309113135104","name":"James Hare","id":898725309113135104}],"symbols":[]},"display_text_range":[13,111],"contributors":null,"user":{"utc_offset":null,"friends_count":0,"profile_image_url_https":"https://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","listed_count":0,"profile_background_image_url":"","default_profile_image":false,"favourites_count":0,"description":"I am a helpful application that will reply with a recipe to a tweet containing a drink name. e.g. tweet \"margarita\" @BeverageFinder. Created by @JamesHareUK","created_at":"Sun Apr 28 21:26:56 +0000 2019","is_translator":false,"profile_background_image_url_https":"","protected":false,"screen_name":"BeverageFinder","id_str":"1122613190993555458","profile_link_color":"1DA1F2","translator_type":"none","id":1122613190993555458,"geo_enabled":false,"profile_background_color":"F5F8FA","lang":null,"profile_sidebar_border_color":"C0DEED","profile_text_color":"333333","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","time_zone":null,"url":null,"contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/1122613190993555458/1559704725","statuses_count":9,"follow_request_sent":null,"followers_count":1,"profile_use_background_image":true,"default_profile":true,"following":null,"name":"BeverageFinder","location":null,"profile_sidebar_fill_color":"DDEEF6","notifications":null}}
+2019-06-10 20:41:15,866  INFO [Twitter4J Async Dispatcher[0]] - This status was posted by @BeverageFinder.
+2019-06-10 20:41:16,683 DEBUG [Twitter4J Async Dispatcher[0]] - Received:{"extended_entities":{"media":[{"display_url":"pic.twitter.com/UtFtIQjnxw","indices":[116,139],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138259850478202880","expanded_url":"https://twitter.com/BeverageFinder/status/1138259852113960960/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vpTaHXsAAlJLg.jpg","id":1138259850478202880,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vpTaHXsAAlJLg.jpg","url":"https://t.co/UtFtIQjnxw"}]},"in_reply_to_status_id_str":"1138259818379194368","in_reply_to_status_id":1138259818379194368,"created_at":"Tue Jun 11 01:41:11 +0000 2019","in_reply_to_user_id_str":"898725309113135104","source":"<a href=\"https://twitter.com\" rel=\"nofollow\">Entertainment Suggester<\/a>","retweet_count":0,"retweeted":false,"geo":null,"filter_level":"low","in_reply_to_screen_name":"JamesHareUK","is_quote_status":false,"id_str":"1138259852113960960","in_reply_to_user_id":898725309113135104,"favorite_count":0,"id":1138259852113960960,"text":"@JamesHareUK Pina Colada: Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve. https://t.co/UtFtIQjnxw","place":null,"lang":"en","quote_count":0,"favorited":false,"possibly_sensitive":false,"coordinates":null,"truncated":false,"timestamp_ms":"1560217271246","reply_count":0,"entities":{"urls":[],"hashtags":[],"media":[{"display_url":"pic.twitter.com/UtFtIQjnxw","indices":[116,139],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138259850478202880","expanded_url":"https://twitter.com/BeverageFinder/status/1138259852113960960/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vpTaHXsAAlJLg.jpg","id":1138259850478202880,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vpTaHXsAAlJLg.jpg","url":"https://t.co/UtFtIQjnxw"}],"user_mentions":[{"indices":[0,12],"screen_name":"JamesHareUK","id_str":"898725309113135104","name":"James Hare","id":898725309113135104}],"symbols":[]},"display_text_range":[13,115],"contributors":null,"user":{"utc_offset":null,"friends_count":0,"profile_image_url_https":"https://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","listed_count":0,"profile_background_image_url":"","default_profile_image":false,"favourites_count":0,"description":"I am a helpful application that will reply with a recipe to a tweet containing a drink name. e.g. tweet \"margarita\" @BeverageFinder. Created by @JamesHareUK","created_at":"Sun Apr 28 21:26:56 +0000 2019","is_translator":false,"profile_background_image_url_https":"","protected":false,"screen_name":"BeverageFinder","id_str":"1122613190993555458","profile_link_color":"1DA1F2","translator_type":"none","id":1122613190993555458,"geo_enabled":false,"profile_background_color":"F5F8FA","lang":null,"profile_sidebar_border_color":"C0DEED","profile_text_color":"333333","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","time_zone":null,"url":null,"contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/1122613190993555458/1559704725","statuses_count":10,"follow_request_sent":null,"followers_count":1,"profile_use_background_image":true,"default_profile":true,"following":null,"name":"BeverageFinder","location":null,"profile_sidebar_fill_color":"DDEEF6","notifications":null}}
+2019-06-10 20:41:16,685  INFO [Twitter4J Async Dispatcher[0]] - This status was posted by @BeverageFinder.
+2019-06-10 20:42:01,035 DEBUG [Twitter4J Async Dispatcher[0]] - Received:{"in_reply_to_status_id_str":null,"in_reply_to_status_id":null,"created_at":"Tue Jun 11 01:41:55 +0000 2019","in_reply_to_user_id_str":"1122613190993555458","source":"<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>","retweet_count":0,"retweeted":false,"geo":null,"filter_level":"low","in_reply_to_screen_name":"BeverageFinder","is_quote_status":false,"id_str":"1138260039343509504","in_reply_to_user_id":1122613190993555458,"favorite_count":0,"id":1138260039343509504,"text":"@BeverageFinder Old Fashioned","place":null,"lang":"en","quote_count":0,"favorited":false,"coordinates":null,"truncated":false,"timestamp_ms":"1560217315885","reply_count":0,"entities":{"urls":[],"hashtags":[],"user_mentions":[{"indices":[0,15],"screen_name":"BeverageFinder","id_str":"1122613190993555458","name":"BeverageFinder","id":1122613190993555458}],"symbols":[]},"contributors":null,"user":{"utc_offset":null,"friends_count":98,"profile_image_url_https":"https://pbs.twimg.com/profile_images/898997535968305152/m5c92_Vb_normal.jpg","listed_count":0,"profile_background_image_url":"http://abs.twimg.com/images/themes/theme1/bg.png","default_profile_image":false,"favourites_count":250,"description":"Software Engineer @Cerner. Passionate about Software Engineering and the Themed Entertainment Industry. View my portfolio on Github: https://bit.ly/2SZsWeY","created_at":"Sat Aug 19 01:56:25 +0000 2017","is_translator":false,"profile_background_image_url_https":"https://abs.twimg.com/images/themes/theme1/bg.png","protected":false,"screen_name":"JamesHareUK","id_str":"898725309113135104","profile_link_color":"19CF86","translator_type":"none","id":898725309113135104,"geo_enabled":false,"profile_background_color":"000000","lang":null,"profile_sidebar_border_color":"000000","profile_text_color":"000000","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/898997535968305152/m5c92_Vb_normal.jpg","time_zone":null,"url":"https://github.com/jameshare","contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/898725309113135104/1503172677","statuses_count":97,"follow_request_sent":null,"followers_count":12,"profile_use_background_image":false,"default_profile":false,"following":null,"name":"James Hare","location":"Kansas City, MO","profile_sidebar_fill_color":"000000","notifications":null}}
+2019-06-10 20:42:01,546  INFO [Twitter4J Async Dispatcher[0]] - Request returned empty. Old Fashioned does not exist in the API.
+2019-06-10 20:42:01,547 ERROR [Twitter4J Async Dispatcher[0]] - 2
+2019-06-10 20:45:55,223 DEBUG [main] - serialVersionUID: 6175546394599249696
+2019-06-10 20:45:55,224 DEBUG [main] - debug: true
+2019-06-10 20:45:55,224 DEBUG [main] - user: null
+2019-06-10 20:45:55,224 DEBUG [main] - password: null
+2019-06-10 20:45:55,224 DEBUG [main] - httpConf: MyHttpClientConfiguration{httpProxyHost='null', httpProxyUser='null', httpProxyPassword='null', httpProxyPort=-1, httpConnectionTimeout=20000, httpReadTimeout=120000, prettyDebug=false, gzipEnabled=true}
+2019-06-10 20:45:55,225 DEBUG [main] - httpStreamingReadTimeout: 40000
+2019-06-10 20:45:55,225 DEBUG [main] - httpRetryCount: 0
+2019-06-10 20:45:55,225 DEBUG [main] - httpRetryIntervalSeconds: 5
+2019-06-10 20:45:55,225 DEBUG [main] - oAuthConsumerKey: 1XN6N8i706RdOSBUFwFcs2MmT
+2019-06-10 20:45:55,226 DEBUG [main] - oAuthConsumerSecret: **************************************************
+2019-06-10 20:45:55,226 DEBUG [main] - oAuthAccessToken: 1122613190993555458-13rbJJ6gip7xe7mXezt0QS9pbUsfdV
+2019-06-10 20:45:55,226 DEBUG [main] - oAuthAccessTokenSecret: *********************************************
+2019-06-10 20:45:55,226 DEBUG [main] - oAuth2TokenType: null
+2019-06-10 20:45:55,226 DEBUG [main] - oAuth2AccessToken: null
+2019-06-10 20:45:55,226 DEBUG [main] - oAuth2Scope: null
+2019-06-10 20:45:55,226 DEBUG [main] - oAuthRequestTokenURL: https://api.twitter.com/oauth/request_token
+2019-06-10 20:45:55,226 DEBUG [main] - oAuthAuthorizationURL: https://api.twitter.com/oauth/authorize
+2019-06-10 20:45:55,227 DEBUG [main] - oAuthAccessTokenURL: https://api.twitter.com/oauth/access_token
+2019-06-10 20:45:55,227 DEBUG [main] - oAuthAuthenticationURL: https://api.twitter.com/oauth/authenticate
+2019-06-10 20:45:55,227 DEBUG [main] - oAuth2TokenURL: https://api.twitter.com/oauth2/token
+2019-06-10 20:45:55,227 DEBUG [main] - oAuth2InvalidateTokenURL: https://api.twitter.com/oauth2/invalidate_token
+2019-06-10 20:45:55,227 DEBUG [main] - restBaseURL: https://api.twitter.com/1.1/
+2019-06-10 20:45:55,227 DEBUG [main] - streamBaseURL: https://stream.twitter.com/1.1/
+2019-06-10 20:45:55,227 DEBUG [main] - userStreamBaseURL: https://userstream.twitter.com/1.1/
+2019-06-10 20:45:55,227 DEBUG [main] - siteStreamBaseURL: https://sitestream.twitter.com/1.1/
+2019-06-10 20:45:55,227 DEBUG [main] - uploadBaseURL: https://upload.twitter.com/1.1/
+2019-06-10 20:45:55,228 DEBUG [main] - dispatcherImpl: twitter4j.DispatcherImpl
+2019-06-10 20:45:55,228 DEBUG [main] - asyncNumThreads: 1
+2019-06-10 20:45:55,228 DEBUG [main] - loggerFactory: null
+2019-06-10 20:45:55,228 DEBUG [main] - contributingTo: -1
+2019-06-10 20:45:55,228 DEBUG [main] - includeMyRetweetEnabled: true
+2019-06-10 20:45:55,228 DEBUG [main] - includeEntitiesEnabled: true
+2019-06-10 20:45:55,228 DEBUG [main] - trimUserEnabled: false
+2019-06-10 20:45:55,228 DEBUG [main] - includeExtAltTextEnabled: true
+2019-06-10 20:45:55,228 DEBUG [main] - tweetModeExtended: false
+2019-06-10 20:45:55,229 DEBUG [main] - includeEmailEnabled: false
+2019-06-10 20:45:55,229 DEBUG [main] - jsonStoreEnabled: false
+2019-06-10 20:45:55,229 DEBUG [main] - mbeanEnabled: false
+2019-06-10 20:45:55,229 DEBUG [main] - userStreamRepliesAllEnabled: false
+2019-06-10 20:45:55,229 DEBUG [main] - userStreamWithFollowingsEnabled: true
+2019-06-10 20:45:55,229 DEBUG [main] - stallWarningsEnabled: true
+2019-06-10 20:45:55,229 DEBUG [main] - applicationOnlyAuthEnabled: false
+2019-06-10 20:45:55,229 DEBUG [main] - mediaProvider: TWITTER
+2019-06-10 20:45:55,229 DEBUG [main] - mediaProviderAPIKey: null
+2019-06-10 20:45:55,230 DEBUG [main] - mediaProviderParameters: null
+2019-06-10 20:45:55,230 DEBUG [main] - daemonEnabled: true
+2019-06-10 20:45:55,230 DEBUG [main] - streamThreadName: 
+2019-06-10 20:45:55,230 DEBUG [main] - instances: [ConfigurationBase{debug=true, user='null', password='null', httpConf=MyHttpClientConfiguration{httpProxyHost='null', httpProxyUser='null', httpProxyPassword='null', httpProxyPort=-1, httpConnectionTimeout=20000, httpReadTimeout=120000, prettyDebug=false, gzipEnabled=true}, httpStreamingReadTimeout=40000, httpRetryCount=0, httpRetryIntervalSeconds=5, oAuthConsumerKey='1XN6N8i706RdOSBUFwFcs2MmT', oAuthConsumerSecret='q5afIxHxSGLkm7MTUQsgrI2nfwguozgr5wx4fILXSKLblqs1wT', oAuthAccessToken='1122613190993555458-13rbJJ6gip7xe7mXezt0QS9pbUsfdV', oAuthAccessTokenSecret='WeuNXxbZEKFLRk23tQ8Qcetai9zKjXcY9FiN1VRWyTSLP', oAuth2TokenType='null', oAuth2AccessToken='null', oAuth2Scope='null', oAuthRequestTokenURL='https://api.twitter.com/oauth/request_token', oAuthAuthorizationURL='https://api.twitter.com/oauth/authorize', oAuthAccessTokenURL='https://api.twitter.com/oauth/access_token', oAuthAuthenticationURL='https://api.twitter.com/oauth/authenticate', oAuth2TokenURL='https://api.twitter.com/oauth2/token', oAuth2InvalidateTokenURL='https://api.twitter.com/oauth2/invalidate_token', restBaseURL='https://api.twitter.com/1.1/', streamBaseURL='https://stream.twitter.com/1.1/', userStreamBaseURL='https://userstream.twitter.com/1.1/', siteStreamBaseURL='https://sitestream.twitter.com/1.1/', uploadBaseURL='https://upload.twitter.com/1.1/', dispatcherImpl='twitter4j.DispatcherImpl', asyncNumThreads=1, loggerFactory='null', contributingTo=-1, includeMyRetweetEnabled=true, includeEntitiesEnabled=true, trimUserEnabled=false, includeExtAltTextEnabled=true, tweetModeExtended=false, includeEmailEnabled=false, jsonStoreEnabled=false, mbeanEnabled=false, userStreamRepliesAllEnabled=false, userStreamWithFollowingsEnabled=true, stallWarningsEnabled=true, applicationOnlyAuthEnabled=false, mediaProvider='TWITTER', mediaProviderAPIKey='null', mediaProviderParameters=null, daemonEnabled=true, streamThreadName=''}]
+2019-06-10 20:45:55,263  INFO [Twitter Stream consumer /  [1][initializing]] - Establishing connection.
+2019-06-10 20:45:55,263 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Twitter Stream consumer /  [1][Establishing connection]
+2019-06-10 20:45:55,523 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Request: 
+2019-06-10 20:45:55,524 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - POST https://stream.twitter.com/1.1/statuses/filter.json
+2019-06-10 20:45:55,525 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - OAuth base string: POST&https%3A%2F%2Fstream.twitter.com%2F1.1%2Fstatuses%2Ffilter.json&count%3D0%26follow%3D1122613190993555458%26oauth_consumer_key%3D1XN6N8i706RdOSBUFwFcs2MmT%26oauth_nonce%3D995305780%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1560217555%26oauth_token%3D1122613190993555458-13rbJJ6gip7xe7mXezt0QS9pbUsfdV%26oauth_version%3D1.0%26stall_warnings%3Dtrue
+2019-06-10 20:45:55,576 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - OAuth signature: F8g5auaXabI1X12AONZC0xBI7iw=
+2019-06-10 20:45:55,577 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Authorization: **********************************************************************************************************************************************************************************************************************************************************************************
+2019-06-10 20:45:55,577 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client-Version: 4.0.6
+2019-06-10 20:45:55,577 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-4.0.6.xml
+2019-06-10 20:45:55,577 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - X-Twitter-Client: Twitter4J
+2019-06-10 20:45:55,577 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - User-Agent: twitter4j http://twitter4j.org/ /4.0.6
+2019-06-10 20:45:55,578 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Connection: close
+2019-06-10 20:45:55,578 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Accept-Encoding: gzip
+2019-06-10 20:45:55,578 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Post Params: count=0&follow=1122613190993555458&stall_warnings=true
+2019-06-10 20:46:18,768 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - Response: 
+2019-06-10 20:46:18,769 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - date: Tue, 11 Jun 2019 01:45:55 GMT
+2019-06-10 20:46:18,769 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - HTTP/1.1 200 OK
+2019-06-10 20:46:18,769 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - set-cookie: guest_id=v1%3A156021755593594792; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:45:55 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:46:18,770 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - set-cookie: personalization_id="v1_bnR3X4HC3ho3acvjMOq13A=="; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:45:55 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:46:18,770 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - server: tsa_a
+2019-06-10 20:46:18,770 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-tsa-request-body-time: 0
+2019-06-10 20:46:18,770 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-response-time: 27
+2019-06-10 20:46:18,770 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - transfer-encoding: chunked
+2019-06-10 20:46:18,770 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - x-connection-hash: e33341512d5e21ec2d615b4f2b14552d
+2019-06-10 20:46:18,770 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - content-encoding: gzip
+2019-06-10 20:46:18,770 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - content-type: application/json
+2019-06-10 20:46:18,770 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - connection: close
+2019-06-10 20:46:18,770 DEBUG [Twitter Stream consumer /  [1][Establishing connection]] - strict-transport-security: max-age=631138519
+2019-06-10 20:46:18,771  INFO [Twitter Stream consumer /  [1][Establishing connection]] - Connection established.
+2019-06-10 20:46:18,771  INFO [Twitter Stream consumer /  [1][Establishing connection]] - Receiving status stream.
+2019-06-10 20:46:18,771 DEBUG [Twitter Stream consumer /  [1][Receiving stream]] - Twitter Stream consumer /  [1][Receiving stream]
+2019-06-10 20:46:21,231 DEBUG [Twitter4J Async Dispatcher[0]] - Received:{"in_reply_to_status_id_str":null,"in_reply_to_status_id":null,"created_at":"Tue Jun 11 01:46:16 +0000 2019","in_reply_to_user_id_str":"1122613190993555458","source":"<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>","retweet_count":0,"retweeted":false,"geo":null,"filter_level":"low","in_reply_to_screen_name":"BeverageFinder","is_quote_status":false,"id_str":"1138261130470744066","in_reply_to_user_id":1122613190993555458,"favorite_count":0,"id":1138261130470744066,"text":"@BeverageFinder old fashioned","place":null,"lang":"en","quote_count":0,"favorited":false,"coordinates":null,"truncated":false,"timestamp_ms":"1560217576030","reply_count":0,"entities":{"urls":[],"hashtags":[],"user_mentions":[{"indices":[0,15],"screen_name":"BeverageFinder","id_str":"1122613190993555458","name":"BeverageFinder","id":1122613190993555458}],"symbols":[]},"contributors":null,"user":{"utc_offset":null,"friends_count":98,"profile_image_url_https":"https://pbs.twimg.com/profile_images/898997535968305152/m5c92_Vb_normal.jpg","listed_count":0,"profile_background_image_url":"http://abs.twimg.com/images/themes/theme1/bg.png","default_profile_image":false,"favourites_count":250,"description":"Software Engineer @Cerner. Passionate about Software Engineering and the Themed Entertainment Industry. View my portfolio on Github: https://bit.ly/2SZsWeY","created_at":"Sat Aug 19 01:56:25 +0000 2017","is_translator":false,"profile_background_image_url_https":"https://abs.twimg.com/images/themes/theme1/bg.png","protected":false,"screen_name":"JamesHareUK","id_str":"898725309113135104","profile_link_color":"19CF86","translator_type":"none","id":898725309113135104,"geo_enabled":false,"profile_background_color":"000000","lang":null,"profile_sidebar_border_color":"000000","profile_text_color":"000000","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/898997535968305152/m5c92_Vb_normal.jpg","time_zone":null,"url":"https://github.com/jameshare","contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/898725309113135104/1503172677","statuses_count":97,"follow_request_sent":null,"followers_count":12,"profile_use_background_image":false,"default_profile":false,"following":null,"name":"James Hare","location":"Kansas City, MO","profile_sidebar_fill_color":"000000","notifications":null}}
+2019-06-10 20:46:21,854  INFO [Twitter4J Async Dispatcher[0]] - Request returned empty. old fashioned does not exist in the API.
+2019-06-10 20:46:21,855 DEBUG [Twitter4J Async Dispatcher[0]] - Request: 
+2019-06-10 20:46:21,855 DEBUG [Twitter4J Async Dispatcher[0]] - POST https://api.twitter.com/1.1/statuses/update.json
+2019-06-10 20:46:21,855 DEBUG [Twitter4J Async Dispatcher[0]] - OAuth base string: POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&in_reply_to_status_id%3D1138261130470744066%26include_entities%3Dtrue%26include_ext_alt_text%3Dtrue%26oauth_consumer_key%3D1XN6N8i706RdOSBUFwFcs2MmT%26oauth_nonce%3D2453322956%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1560217581%26oauth_token%3D1122613190993555458-13rbJJ6gip7xe7mXezt0QS9pbUsfdV%26oauth_version%3D1.0%26status%3D%2540JamesHareUK%2520Sorry%252C%2520the%2520recipe%2520for%2520a%2520old%2520fashioned%2520could%2520not%2520be%2520found.
+2019-06-10 20:46:21,856 DEBUG [Twitter4J Async Dispatcher[0]] - OAuth signature: TXk5CioaOqhBN9/rFcshFkxDvBQ=
+2019-06-10 20:46:21,856 DEBUG [Twitter4J Async Dispatcher[0]] - Authorization: *************************************************************************************************************************************************************************************************************************************************************************************
+2019-06-10 20:46:21,856 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client-Version: 4.0.6
+2019-06-10 20:46:21,856 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-4.0.6.xml
+2019-06-10 20:46:21,856 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client: Twitter4J
+2019-06-10 20:46:21,857 DEBUG [Twitter4J Async Dispatcher[0]] - User-Agent: twitter4j http://twitter4j.org/ /4.0.6
+2019-06-10 20:46:21,857 DEBUG [Twitter4J Async Dispatcher[0]] - Accept-Encoding: gzip
+2019-06-10 20:46:21,857 DEBUG [Twitter4J Async Dispatcher[0]] - Post Params: status=%40JamesHareUK%20Sorry%2C%20the%20recipe%20for%20a%20old%20fashioned%20could%20not%20be%20found.&in_reply_to_status_id=1138261130470744066&include_entities=true&include_ext_alt_text=true
+2019-06-10 20:46:22,179 DEBUG [Twitter4J Async Dispatcher[0]] - Response: 
+2019-06-10 20:46:22,180 DEBUG [Twitter4J Async Dispatcher[0]] - date: Tue, 11 Jun 2019 01:46:22 GMT
+2019-06-10 20:46:22,180 DEBUG [Twitter4J Async Dispatcher[0]] - HTTP/1.1 200 OK
+2019-06-10 20:46:22,180 DEBUG [Twitter4J Async Dispatcher[0]] - server: tsa_b
+2019-06-10 20:46:22,180 DEBUG [Twitter4J Async Dispatcher[0]] - content-length: 1002
+2019-06-10 20:46:22,180 DEBUG [Twitter4J Async Dispatcher[0]] - x-tsa-request-body-time: 0
+2019-06-10 20:46:22,180 DEBUG [Twitter4J Async Dispatcher[0]] - expires: Tue, 31 Mar 1981 05:00:00 GMT
+2019-06-10 20:46:22,180 DEBUG [Twitter4J Async Dispatcher[0]] - x-response-time: 122
+2019-06-10 20:46:22,180 DEBUG [Twitter4J Async Dispatcher[0]] - x-frame-options: SAMEORIGIN
+2019-06-10 20:46:22,180 DEBUG [Twitter4J Async Dispatcher[0]] - content-encoding: gzip
+2019-06-10 20:46:22,181 DEBUG [Twitter4J Async Dispatcher[0]] - x-transaction: 00b30dad006574cc
+2019-06-10 20:46:22,181 DEBUG [Twitter4J Async Dispatcher[0]] - strict-transport-security: max-age=631138519
+2019-06-10 20:46:22,181 DEBUG [Twitter4J Async Dispatcher[0]] - pragma: no-cache
+2019-06-10 20:46:22,181 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: guest_id=v1%3A156021758203539367; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:46:22 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:46:22,181 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: lang=en; Path=/
+2019-06-10 20:46:22,181 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: personalization_id="v1_EyWq/QVZg8YtNm0bWy2b9A=="; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:46:22 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:46:22,181 DEBUG [Twitter4J Async Dispatcher[0]] - last-modified: Tue, 11 Jun 2019 01:46:22 GMT
+2019-06-10 20:46:22,181 DEBUG [Twitter4J Async Dispatcher[0]] - x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+2019-06-10 20:46:22,181 DEBUG [Twitter4J Async Dispatcher[0]] - x-content-type-options: nosniff
+2019-06-10 20:46:22,181 DEBUG [Twitter4J Async Dispatcher[0]] - content-disposition: attachment; filename=json.json
+2019-06-10 20:46:22,181 DEBUG [Twitter4J Async Dispatcher[0]] - x-connection-hash: 146a30697f712294da07ae5b3115203c
+2019-06-10 20:46:22,182 DEBUG [Twitter4J Async Dispatcher[0]] - x-access-level: read-write-directmessages
+2019-06-10 20:46:22,182 DEBUG [Twitter4J Async Dispatcher[0]] - x-twitter-response-tags: BouncerCompliant
+2019-06-10 20:46:22,182 DEBUG [Twitter4J Async Dispatcher[0]] - content-type: application/json;charset=utf-8
+2019-06-10 20:46:22,182 DEBUG [Twitter4J Async Dispatcher[0]] - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+2019-06-10 20:46:22,182 DEBUG [Twitter4J Async Dispatcher[0]] - status: 200 OK
+2019-06-10 20:46:22,185 DEBUG [Twitter4J Async Dispatcher[0]] - {"in_reply_to_status_id_str":"1138261130470744066","in_reply_to_status_id":1138261130470744066,"coordinates":null,"created_at":"Tue Jun 11 01:46:22 +0000 2019","truncated":false,"in_reply_to_user_id_str":"898725309113135104","source":"<a href=\"https://twitter.com\" rel=\"nofollow\">Entertainment Suggester<\/a>","retweet_count":0,"retweeted":false,"geo":null,"in_reply_to_screen_name":"JamesHareUK","is_quote_status":false,"entities":{"urls":[],"hashtags":[],"user_mentions":[{"indices":[0,12],"screen_name":"JamesHareUK","id_str":"898725309113135104","name":"James Hare","id":898725309113135104}],"symbols":[]},"id_str":"1138261155695210496","in_reply_to_user_id":898725309113135104,"favorite_count":0,"id":1138261155695210496,"text":"@JamesHareUK Sorry, the recipe for a old fashioned could not be found.","place":null,"contributors":null,"lang":"en","user":{"utc_offset":null,"friends_count":0,"profile_image_url_https":"https://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","listed_count":0,"profile_background_image_url":null,"default_profile_image":false,"favourites_count":0,"description":"I am a helpful application that will reply with a recipe to a tweet containing a drink name. e.g. tweet \"margarita\" @BeverageFinder. Created by @JamesHareUK","created_at":"Sun Apr 28 21:26:56 +0000 2019","is_translator":false,"profile_background_image_url_https":null,"protected":false,"screen_name":"BeverageFinder","id_str":"1122613190993555458","profile_link_color":"1DA1F2","is_translation_enabled":false,"translator_type":"none","id":1122613190993555458,"geo_enabled":false,"profile_background_color":"F5F8FA","lang":null,"has_extended_profile":false,"profile_image_extensions_alt_text":null,"profile_sidebar_border_color":"C0DEED","profile_text_color":"333333","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","time_zone":null,"url":null,"contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/1122613190993555458/1559704725","entities":{"description":{"urls":[]}},"statuses_count":11,"follow_request_sent":false,"followers_count":1,"profile_use_background_image":true,"default_profile":true,"following":false,"name":"BeverageFinder","location":"","profile_sidebar_fill_color":"DDEEF6","profile_banner_extensions_alt_text":null,"notifications":false},"favorited":false}
+2019-06-10 20:46:22,186  INFO [Twitter4J Async Dispatcher[0]] - Drink does not exist status update sent to JamesHareUK
+2019-06-10 20:46:27,371 DEBUG [Twitter4J Async Dispatcher[0]] - Received:{"in_reply_to_status_id_str":"1138261130470744066","in_reply_to_status_id":1138261130470744066,"created_at":"Tue Jun 11 01:46:22 +0000 2019","in_reply_to_user_id_str":"898725309113135104","source":"<a href=\"https://twitter.com\" rel=\"nofollow\">Entertainment Suggester<\/a>","retweet_count":0,"retweeted":false,"geo":null,"filter_level":"low","in_reply_to_screen_name":"JamesHareUK","is_quote_status":false,"id_str":"1138261155695210496","in_reply_to_user_id":898725309113135104,"favorite_count":0,"id":1138261155695210496,"text":"@JamesHareUK Sorry, the recipe for a old fashioned could not be found.","place":null,"lang":"en","quote_count":0,"favorited":false,"coordinates":null,"truncated":false,"timestamp_ms":"1560217582044","reply_count":0,"entities":{"urls":[],"hashtags":[],"user_mentions":[{"indices":[0,12],"screen_name":"JamesHareUK","id_str":"898725309113135104","name":"James Hare","id":898725309113135104}],"symbols":[]},"display_text_range":[13,70],"contributors":null,"user":{"utc_offset":null,"friends_count":0,"profile_image_url_https":"https://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","listed_count":0,"profile_background_image_url":"","default_profile_image":false,"favourites_count":0,"description":"I am a helpful application that will reply with a recipe to a tweet containing a drink name. e.g. tweet \"margarita\" @BeverageFinder. Created by @JamesHareUK","created_at":"Sun Apr 28 21:26:56 +0000 2019","is_translator":false,"profile_background_image_url_https":"","protected":false,"screen_name":"BeverageFinder","id_str":"1122613190993555458","profile_link_color":"1DA1F2","translator_type":"none","id":1122613190993555458,"geo_enabled":false,"profile_background_color":"F5F8FA","lang":null,"profile_sidebar_border_color":"C0DEED","profile_text_color":"333333","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","time_zone":null,"url":null,"contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/1122613190993555458/1559704725","statuses_count":11,"follow_request_sent":null,"followers_count":1,"profile_use_background_image":true,"default_profile":true,"following":null,"name":"BeverageFinder","location":null,"profile_sidebar_fill_color":"DDEEF6","notifications":null}}
+2019-06-10 20:46:27,374  INFO [Twitter4J Async Dispatcher[0]] - This status was posted by @BeverageFinder.
+2019-06-10 20:47:29,426 DEBUG [Twitter4J Async Dispatcher[0]] - Received:{"in_reply_to_status_id_str":null,"in_reply_to_status_id":null,"created_at":"Tue Jun 11 01:47:24 +0000 2019","in_reply_to_user_id_str":"1122613190993555458","source":"<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client<\/a>","retweet_count":0,"retweeted":false,"geo":null,"filter_level":"low","in_reply_to_screen_name":"BeverageFinder","is_quote_status":false,"id_str":"1138261416195047424","in_reply_to_user_id":1122613190993555458,"favorite_count":0,"id":1138261416195047424,"text":"@BeverageFinder pina colada","place":null,"lang":"es","quote_count":0,"favorited":false,"coordinates":null,"truncated":false,"timestamp_ms":"1560217644152","reply_count":0,"entities":{"urls":[],"hashtags":[],"user_mentions":[{"indices":[0,15],"screen_name":"BeverageFinder","id_str":"1122613190993555458","name":"BeverageFinder","id":1122613190993555458}],"symbols":[]},"contributors":null,"user":{"utc_offset":null,"friends_count":98,"profile_image_url_https":"https://pbs.twimg.com/profile_images/898997535968305152/m5c92_Vb_normal.jpg","listed_count":0,"profile_background_image_url":"http://abs.twimg.com/images/themes/theme1/bg.png","default_profile_image":false,"favourites_count":250,"description":"Software Engineer @Cerner. Passionate about Software Engineering and the Themed Entertainment Industry. View my portfolio on Github: https://bit.ly/2SZsWeY","created_at":"Sat Aug 19 01:56:25 +0000 2017","is_translator":false,"profile_background_image_url_https":"https://abs.twimg.com/images/themes/theme1/bg.png","protected":false,"screen_name":"JamesHareUK","id_str":"898725309113135104","profile_link_color":"19CF86","translator_type":"none","id":898725309113135104,"geo_enabled":false,"profile_background_color":"000000","lang":null,"profile_sidebar_border_color":"000000","profile_text_color":"000000","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/898997535968305152/m5c92_Vb_normal.jpg","time_zone":null,"url":"https://github.com/jameshare","contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/898725309113135104/1503172677","statuses_count":97,"follow_request_sent":null,"followers_count":12,"profile_use_background_image":false,"default_profile":false,"following":null,"name":"James Hare","location":"Kansas City, MO","profile_sidebar_fill_color":"000000","notifications":null}}
+2019-06-10 20:47:30,144  INFO [Twitter4J Async Dispatcher[0]] - Drink image was saved.
+2019-06-10 20:47:30,144 DEBUG [Twitter4J Async Dispatcher[0]] - Request: 
+2019-06-10 20:47:30,144 DEBUG [Twitter4J Async Dispatcher[0]] - POST https://api.twitter.com/1.1/statuses/update_with_media.json
+2019-06-10 20:47:30,145 DEBUG [Twitter4J Async Dispatcher[0]] - OAuth base string: POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate_with_media.json&oauth_consumer_key%3D1XN6N8i706RdOSBUFwFcs2MmT%26oauth_nonce%3D701598094%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1560217650%26oauth_token%3D1122613190993555458-13rbJJ6gip7xe7mXezt0QS9pbUsfdV%26oauth_version%3D1.0
+2019-06-10 20:47:30,145 DEBUG [Twitter4J Async Dispatcher[0]] - OAuth signature: jwid0xYspusF02BDsblzFRqNuM0=
+2019-06-10 20:47:30,145 DEBUG [Twitter4J Async Dispatcher[0]] - Authorization: **********************************************************************************************************************************************************************************************************************************************************************************
+2019-06-10 20:47:30,145 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client-Version: 4.0.6
+2019-06-10 20:47:30,145 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-4.0.6.xml
+2019-06-10 20:47:30,145 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client: Twitter4J
+2019-06-10 20:47:30,146 DEBUG [Twitter4J Async Dispatcher[0]] - User-Agent: twitter4j http://twitter4j.org/ /4.0.6
+2019-06-10 20:47:30,146 DEBUG [Twitter4J Async Dispatcher[0]] - Accept-Encoding: gzip
+2019-06-10 20:47:30,299 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217650146
+
+2019-06-10 20:47:30,300 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="status"
+
+2019-06-10 20:47:30,300 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:47:30,300 DEBUG [Twitter4J Async Dispatcher[0]] - @JamesHareUK Pina Colada: 3 oz  Light rum, 3 tblsp  Coconut milk, 3 tblsp  Pineapple, Serve in a Collins glass.
+2019-06-10 20:47:30,300 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:30,300 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217650146
+
+2019-06-10 20:47:30,300 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="in_reply_to_status_id"
+
+2019-06-10 20:47:30,300 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:47:30,300 DEBUG [Twitter4J Async Dispatcher[0]] - 1138261416195047424
+2019-06-10 20:47:30,300 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:30,301 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217650146
+
+2019-06-10 20:47:30,301 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="media[]"; filename="DrinkImage.jpg"
+
+2019-06-10 20:47:30,301 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: image/jpeg
+
+
+2019-06-10 20:47:30,301 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:30,301 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217650146
+
+2019-06-10 20:47:30,301 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="possibly_sensitive"
+
+2019-06-10 20:47:30,302 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:47:30,302 DEBUG [Twitter4J Async Dispatcher[0]] - false
+2019-06-10 20:47:30,302 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:30,302 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217650146
+
+2019-06-10 20:47:30,302 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="include_entities"
+
+2019-06-10 20:47:30,302 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:47:30,302 DEBUG [Twitter4J Async Dispatcher[0]] - true
+2019-06-10 20:47:30,302 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:30,302 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217650146
+
+2019-06-10 20:47:30,302 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="include_ext_alt_text"
+
+2019-06-10 20:47:30,302 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:47:30,303 DEBUG [Twitter4J Async Dispatcher[0]] - true
+2019-06-10 20:47:30,303 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:30,303 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217650146--
+
+2019-06-10 20:47:30,303 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:31,035 DEBUG [Twitter4J Async Dispatcher[0]] - Response: 
+2019-06-10 20:47:31,035 DEBUG [Twitter4J Async Dispatcher[0]] - date: Tue, 11 Jun 2019 01:47:31 GMT
+2019-06-10 20:47:31,035 DEBUG [Twitter4J Async Dispatcher[0]] - HTTP/1.1 200 OK
+2019-06-10 20:47:31,035 DEBUG [Twitter4J Async Dispatcher[0]] - server: tsa_b
+2019-06-10 20:47:31,035 DEBUG [Twitter4J Async Dispatcher[0]] - content-length: 1241
+2019-06-10 20:47:31,035 DEBUG [Twitter4J Async Dispatcher[0]] - expires: Tue, 31 Mar 1981 05:00:00 GMT
+2019-06-10 20:47:31,036 DEBUG [Twitter4J Async Dispatcher[0]] - x-response-time: 511
+2019-06-10 20:47:31,036 DEBUG [Twitter4J Async Dispatcher[0]] - x-frame-options: SAMEORIGIN
+2019-06-10 20:47:31,036 DEBUG [Twitter4J Async Dispatcher[0]] - content-encoding: gzip
+2019-06-10 20:47:31,036 DEBUG [Twitter4J Async Dispatcher[0]] - x-transaction: 0043669b003926b1
+2019-06-10 20:47:31,036 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: guest_id=v1%3A156021765050290873; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:47:31 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:47:31,036 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: lang=en; Path=/
+2019-06-10 20:47:31,036 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: personalization_id="v1_09VY/iMAlwlf3mRCKfFlkQ=="; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:47:31 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:47:31,036 DEBUG [Twitter4J Async Dispatcher[0]] - last-modified: Tue, 11 Jun 2019 01:47:31 GMT
+2019-06-10 20:47:31,036 DEBUG [Twitter4J Async Dispatcher[0]] - content-disposition: attachment; filename=json.json
+2019-06-10 20:47:31,036 DEBUG [Twitter4J Async Dispatcher[0]] - x-connection-hash: 841ac64b12ac35651fa57198b6eeb72f
+2019-06-10 20:47:31,036 DEBUG [Twitter4J Async Dispatcher[0]] - x-twitter-response-tags: BouncerCompliant
+2019-06-10 20:47:31,037 DEBUG [Twitter4J Async Dispatcher[0]] - content-type: application/json;charset=utf-8
+2019-06-10 20:47:31,037 DEBUG [Twitter4J Async Dispatcher[0]] - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+2019-06-10 20:47:31,037 DEBUG [Twitter4J Async Dispatcher[0]] - x-tsa-request-body-time: 179
+2019-06-10 20:47:31,037 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-class: photos
+2019-06-10 20:47:31,037 DEBUG [Twitter4J Async Dispatcher[0]] - strict-transport-security: max-age=631138519
+2019-06-10 20:47:31,037 DEBUG [Twitter4J Async Dispatcher[0]] - pragma: no-cache
+2019-06-10 20:47:31,037 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-reset: 1560296734
+2019-06-10 20:47:31,037 DEBUG [Twitter4J Async Dispatcher[0]] - x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+2019-06-10 20:47:31,037 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-limit: 6000
+2019-06-10 20:47:31,037 DEBUG [Twitter4J Async Dispatcher[0]] - x-content-type-options: nosniff
+2019-06-10 20:47:31,037 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-remaining: 5987
+2019-06-10 20:47:31,038 DEBUG [Twitter4J Async Dispatcher[0]] - x-access-level: read-write-directmessages
+2019-06-10 20:47:31,038 DEBUG [Twitter4J Async Dispatcher[0]] - status: 200 OK
+2019-06-10 20:47:31,039 DEBUG [Twitter4J Async Dispatcher[0]] - {"extended_entities":{"media":[{"display_url":"pic.twitter.com/KR3PnruW20","indices":[112,135],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138261442862485504","expanded_url":"https://twitter.com/BeverageFinder/status/1138261443827109889/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vqwGNXkAAxDaF.jpg","id":1138261442862485504,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vqwGNXkAAxDaF.jpg","url":"https://t.co/KR3PnruW20"}]},"in_reply_to_status_id_str":"1138261416195047424","in_reply_to_status_id":1138261416195047424,"created_at":"Tue Jun 11 01:47:30 +0000 2019","in_reply_to_user_id_str":"898725309113135104","source":"<a href=\"https://twitter.com\" rel=\"nofollow\">Entertainment Suggester<\/a>","retweet_count":0,"retweeted":false,"geo":null,"in_reply_to_screen_name":"JamesHareUK","is_quote_status":false,"id_str":"1138261443827109889","in_reply_to_user_id":898725309113135104,"favorite_count":0,"id":1138261443827109889,"text":"@JamesHareUK Pina Colada: 3 oz  Light rum, 3 tblsp  Coconut milk, 3 tblsp  Pineapple, Serve in a Collins glass. https://t.co/KR3PnruW20","place":null,"lang":"en","favorited":false,"possibly_sensitive":false,"coordinates":null,"truncated":false,"entities":{"urls":[],"hashtags":[],"media":[{"display_url":"pic.twitter.com/KR3PnruW20","indices":[112,135],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138261442862485504","expanded_url":"https://twitter.com/BeverageFinder/status/1138261443827109889/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vqwGNXkAAxDaF.jpg","id":1138261442862485504,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vqwGNXkAAxDaF.jpg","url":"https://t.co/KR3PnruW20"}],"user_mentions":[{"indices":[0,12],"screen_name":"JamesHareUK","id_str":"898725309113135104","name":"James Hare","id":898725309113135104}],"symbols":[]},"contributors":null,"user":{"utc_offset":null,"friends_count":0,"profile_image_url_https":"https://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","listed_count":0,"profile_background_image_url":null,"default_profile_image":false,"favourites_count":0,"description":"I am a helpful application that will reply with a recipe to a tweet containing a drink name. e.g. tweet \"margarita\" @BeverageFinder. Created by @JamesHareUK","created_at":"Sun Apr 28 21:26:56 +0000 2019","is_translator":false,"profile_background_image_url_https":null,"protected":false,"screen_name":"BeverageFinder","id_str":"1122613190993555458","profile_link_color":"1DA1F2","is_translation_enabled":false,"translator_type":"none","id":1122613190993555458,"geo_enabled":false,"profile_background_color":"F5F8FA","lang":null,"has_extended_profile":false,"profile_sidebar_border_color":"C0DEED","profile_text_color":"333333","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","time_zone":null,"url":null,"contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/1122613190993555458/1559704725","entities":{"description":{"urls":[]}},"statuses_count":12,"follow_request_sent":false,"followers_count":1,"profile_use_background_image":true,"default_profile":true,"following":false,"name":"BeverageFinder","location":"","profile_sidebar_fill_color":"DDEEF6","notifications":false}}
+2019-06-10 20:47:31,042  INFO [Twitter4J Async Dispatcher[0]] - Tweet 1 of 2 sent to JamesHareUK
+2019-06-10 20:47:31,042 DEBUG [Twitter4J Async Dispatcher[0]] - Request: 
+2019-06-10 20:47:31,043 DEBUG [Twitter4J Async Dispatcher[0]] - POST https://api.twitter.com/1.1/statuses/update_with_media.json
+2019-06-10 20:47:31,043 DEBUG [Twitter4J Async Dispatcher[0]] - OAuth base string: POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate_with_media.json&oauth_consumer_key%3D1XN6N8i706RdOSBUFwFcs2MmT%26oauth_nonce%3D907160747%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1560217651%26oauth_token%3D1122613190993555458-13rbJJ6gip7xe7mXezt0QS9pbUsfdV%26oauth_version%3D1.0
+2019-06-10 20:47:31,043 DEBUG [Twitter4J Async Dispatcher[0]] - OAuth signature: XHsu4jU22l5Scf2E0+gKuYy6clg=
+2019-06-10 20:47:31,043 DEBUG [Twitter4J Async Dispatcher[0]] - Authorization: ************************************************************************************************************************************************************************************************************************************************************************************
+2019-06-10 20:47:31,044 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client-Version: 4.0.6
+2019-06-10 20:47:31,044 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-4.0.6.xml
+2019-06-10 20:47:31,044 DEBUG [Twitter4J Async Dispatcher[0]] - X-Twitter-Client: Twitter4J
+2019-06-10 20:47:31,044 DEBUG [Twitter4J Async Dispatcher[0]] - User-Agent: twitter4j http://twitter4j.org/ /4.0.6
+2019-06-10 20:47:31,044 DEBUG [Twitter4J Async Dispatcher[0]] - Accept-Encoding: gzip
+2019-06-10 20:47:31,046 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217651044
+
+2019-06-10 20:47:31,046 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="status"
+
+2019-06-10 20:47:31,046 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:47:31,046 DEBUG [Twitter4J Async Dispatcher[0]] - @JamesHareUK Pina Colada: Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve.
+2019-06-10 20:47:31,046 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:31,046 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217651044
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="in_reply_to_status_id"
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - 1138261416195047424
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217651044
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="media[]"; filename="DrinkImage.jpg"
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: image/jpeg
+
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217651044
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="possibly_sensitive"
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - false
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217651044
+
+2019-06-10 20:47:31,047 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="include_entities"
+
+2019-06-10 20:47:31,048 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:47:31,048 DEBUG [Twitter4J Async Dispatcher[0]] - true
+2019-06-10 20:47:31,048 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:31,048 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217651044
+
+2019-06-10 20:47:31,048 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Disposition: form-data; name="include_ext_alt_text"
+
+2019-06-10 20:47:31,048 DEBUG [Twitter4J Async Dispatcher[0]] - Content-Type: text/plain; charset=UTF-8
+
+
+2019-06-10 20:47:31,048 DEBUG [Twitter4J Async Dispatcher[0]] - true
+2019-06-10 20:47:31,048 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:31,048 DEBUG [Twitter4J Async Dispatcher[0]] - ------Twitter4J-upload1560217651044--
+
+2019-06-10 20:47:31,048 DEBUG [Twitter4J Async Dispatcher[0]] - 
+
+2019-06-10 20:47:31,886 DEBUG [Twitter4J Async Dispatcher[0]] - Response: 
+2019-06-10 20:47:31,886 DEBUG [Twitter4J Async Dispatcher[0]] - date: Tue, 11 Jun 2019 01:47:31 GMT
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - HTTP/1.1 200 OK
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - server: tsa_b
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - content-length: 1246
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - expires: Tue, 31 Mar 1981 05:00:00 GMT
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - x-response-time: 531
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - x-frame-options: SAMEORIGIN
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - content-encoding: gzip
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - x-transaction: 0012536500811830
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: guest_id=v1%3A156021765111865061; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:47:31 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: lang=en; Path=/
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - set-cookie: personalization_id="v1_ZnK+ePbuOdXpyaUtTaEp0Q=="; Max-Age=63072000; Expires=Thu, 10 Jun 2021 01:47:31 GMT; Path=/; Domain=.twitter.com
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - last-modified: Tue, 11 Jun 2019 01:47:31 GMT
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - content-disposition: attachment; filename=json.json
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - x-connection-hash: 841ac64b12ac35651fa57198b6eeb72f
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - x-twitter-response-tags: BouncerCompliant
+2019-06-10 20:47:31,887 DEBUG [Twitter4J Async Dispatcher[0]] - content-type: application/json;charset=utf-8
+2019-06-10 20:47:31,888 DEBUG [Twitter4J Async Dispatcher[0]] - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+2019-06-10 20:47:31,888 DEBUG [Twitter4J Async Dispatcher[0]] - x-tsa-request-body-time: 49
+2019-06-10 20:47:31,888 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-class: photos
+2019-06-10 20:47:31,888 DEBUG [Twitter4J Async Dispatcher[0]] - strict-transport-security: max-age=631138519
+2019-06-10 20:47:31,888 DEBUG [Twitter4J Async Dispatcher[0]] - pragma: no-cache
+2019-06-10 20:47:31,888 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-reset: 1560296734
+2019-06-10 20:47:31,888 DEBUG [Twitter4J Async Dispatcher[0]] - x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+2019-06-10 20:47:31,888 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-limit: 6000
+2019-06-10 20:47:31,888 DEBUG [Twitter4J Async Dispatcher[0]] - x-content-type-options: nosniff
+2019-06-10 20:47:31,888 DEBUG [Twitter4J Async Dispatcher[0]] - x-mediaratelimit-remaining: 5986
+2019-06-10 20:47:31,888 DEBUG [Twitter4J Async Dispatcher[0]] - x-access-level: read-write-directmessages
+2019-06-10 20:47:31,888 DEBUG [Twitter4J Async Dispatcher[0]] - status: 200 OK
+2019-06-10 20:47:31,889 DEBUG [Twitter4J Async Dispatcher[0]] - {"extended_entities":{"media":[{"display_url":"pic.twitter.com/F4mDm74ap1","indices":[116,139],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138261445454512128","expanded_url":"https://twitter.com/BeverageFinder/status/1138261446415003654/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vqwP3WwAA23Pz.jpg","id":1138261445454512128,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vqwP3WwAA23Pz.jpg","url":"https://t.co/F4mDm74ap1"}]},"in_reply_to_status_id_str":"1138261416195047424","in_reply_to_status_id":1138261416195047424,"created_at":"Tue Jun 11 01:47:31 +0000 2019","in_reply_to_user_id_str":"898725309113135104","source":"<a href=\"https://twitter.com\" rel=\"nofollow\">Entertainment Suggester<\/a>","retweet_count":0,"retweeted":false,"geo":null,"in_reply_to_screen_name":"JamesHareUK","is_quote_status":false,"id_str":"1138261446415003654","in_reply_to_user_id":898725309113135104,"favorite_count":0,"id":1138261446415003654,"text":"@JamesHareUK Pina Colada: Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve. https://t.co/F4mDm74ap1","place":null,"lang":"en","favorited":false,"possibly_sensitive":false,"coordinates":null,"truncated":false,"entities":{"urls":[],"hashtags":[],"media":[{"display_url":"pic.twitter.com/F4mDm74ap1","indices":[116,139],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138261445454512128","expanded_url":"https://twitter.com/BeverageFinder/status/1138261446415003654/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vqwP3WwAA23Pz.jpg","id":1138261445454512128,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vqwP3WwAA23Pz.jpg","url":"https://t.co/F4mDm74ap1"}],"user_mentions":[{"indices":[0,12],"screen_name":"JamesHareUK","id_str":"898725309113135104","name":"James Hare","id":898725309113135104}],"symbols":[]},"contributors":null,"user":{"utc_offset":null,"friends_count":0,"profile_image_url_https":"https://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","listed_count":0,"profile_background_image_url":null,"default_profile_image":false,"favourites_count":0,"description":"I am a helpful application that will reply with a recipe to a tweet containing a drink name. e.g. tweet \"margarita\" @BeverageFinder. Created by @JamesHareUK","created_at":"Sun Apr 28 21:26:56 +0000 2019","is_translator":false,"profile_background_image_url_https":null,"protected":false,"screen_name":"BeverageFinder","id_str":"1122613190993555458","profile_link_color":"1DA1F2","is_translation_enabled":false,"translator_type":"none","id":1122613190993555458,"geo_enabled":false,"profile_background_color":"F5F8FA","lang":null,"has_extended_profile":false,"profile_sidebar_border_color":"C0DEED","profile_text_color":"333333","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","time_zone":null,"url":null,"contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/1122613190993555458/1559704725","entities":{"description":{"urls":[]}},"statuses_count":13,"follow_request_sent":false,"followers_count":1,"profile_use_background_image":true,"default_profile":true,"following":false,"name":"BeverageFinder","location":"","profile_sidebar_fill_color":"DDEEF6","notifications":false}}
+2019-06-10 20:47:31,891  INFO [Twitter4J Async Dispatcher[0]] - Tweet 2 of 2 sent to JamesHareUK
+2019-06-10 20:47:36,062 DEBUG [Twitter4J Async Dispatcher[0]] - Received:{"extended_entities":{"media":[{"display_url":"pic.twitter.com/KR3PnruW20","indices":[112,135],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138261442862485504","expanded_url":"https://twitter.com/BeverageFinder/status/1138261443827109889/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vqwGNXkAAxDaF.jpg","id":1138261442862485504,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vqwGNXkAAxDaF.jpg","url":"https://t.co/KR3PnruW20"}]},"in_reply_to_status_id_str":"1138261416195047424","in_reply_to_status_id":1138261416195047424,"created_at":"Tue Jun 11 01:47:30 +0000 2019","in_reply_to_user_id_str":"898725309113135104","source":"<a href=\"https://twitter.com\" rel=\"nofollow\">Entertainment Suggester<\/a>","retweet_count":0,"retweeted":false,"geo":null,"filter_level":"low","in_reply_to_screen_name":"JamesHareUK","is_quote_status":false,"id_str":"1138261443827109889","in_reply_to_user_id":898725309113135104,"favorite_count":0,"id":1138261443827109889,"text":"@JamesHareUK Pina Colada: 3 oz  Light rum, 3 tblsp  Coconut milk, 3 tblsp  Pineapple, Serve in a Collins glass. https://t.co/KR3PnruW20","place":null,"lang":"en","quote_count":0,"favorited":false,"possibly_sensitive":false,"coordinates":null,"truncated":false,"timestamp_ms":"1560217650740","reply_count":0,"entities":{"urls":[],"hashtags":[],"media":[{"display_url":"pic.twitter.com/KR3PnruW20","indices":[112,135],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138261442862485504","expanded_url":"https://twitter.com/BeverageFinder/status/1138261443827109889/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vqwGNXkAAxDaF.jpg","id":1138261442862485504,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vqwGNXkAAxDaF.jpg","url":"https://t.co/KR3PnruW20"}],"user_mentions":[{"indices":[0,12],"screen_name":"JamesHareUK","id_str":"898725309113135104","name":"James Hare","id":898725309113135104}],"symbols":[]},"display_text_range":[13,111],"contributors":null,"user":{"utc_offset":null,"friends_count":0,"profile_image_url_https":"https://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","listed_count":0,"profile_background_image_url":"","default_profile_image":false,"favourites_count":0,"description":"I am a helpful application that will reply with a recipe to a tweet containing a drink name. e.g. tweet \"margarita\" @BeverageFinder. Created by @JamesHareUK","created_at":"Sun Apr 28 21:26:56 +0000 2019","is_translator":false,"profile_background_image_url_https":"","protected":false,"screen_name":"BeverageFinder","id_str":"1122613190993555458","profile_link_color":"1DA1F2","translator_type":"none","id":1122613190993555458,"geo_enabled":false,"profile_background_color":"F5F8FA","lang":null,"profile_sidebar_border_color":"C0DEED","profile_text_color":"333333","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","time_zone":null,"url":null,"contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/1122613190993555458/1559704725","statuses_count":12,"follow_request_sent":null,"followers_count":1,"profile_use_background_image":true,"default_profile":true,"following":null,"name":"BeverageFinder","location":null,"profile_sidebar_fill_color":"DDEEF6","notifications":null}}
+2019-06-10 20:47:36,063  INFO [Twitter4J Async Dispatcher[0]] - This status was posted by @BeverageFinder.
+2019-06-10 20:47:36,799 DEBUG [Twitter4J Async Dispatcher[0]] - Received:{"extended_entities":{"media":[{"display_url":"pic.twitter.com/F4mDm74ap1","indices":[116,139],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138261445454512128","expanded_url":"https://twitter.com/BeverageFinder/status/1138261446415003654/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vqwP3WwAA23Pz.jpg","id":1138261445454512128,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vqwP3WwAA23Pz.jpg","url":"https://t.co/F4mDm74ap1"}]},"in_reply_to_status_id_str":"1138261416195047424","in_reply_to_status_id":1138261416195047424,"created_at":"Tue Jun 11 01:47:31 +0000 2019","in_reply_to_user_id_str":"898725309113135104","source":"<a href=\"https://twitter.com\" rel=\"nofollow\">Entertainment Suggester<\/a>","retweet_count":0,"retweeted":false,"geo":null,"filter_level":"low","in_reply_to_screen_name":"JamesHareUK","is_quote_status":false,"id_str":"1138261446415003654","in_reply_to_user_id":898725309113135104,"favorite_count":0,"id":1138261446415003654,"text":"@JamesHareUK Pina Colada: Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve. https://t.co/F4mDm74ap1","place":null,"lang":"en","quote_count":0,"favorited":false,"possibly_sensitive":false,"coordinates":null,"truncated":false,"timestamp_ms":"1560217651357","reply_count":0,"entities":{"urls":[],"hashtags":[],"media":[{"display_url":"pic.twitter.com/F4mDm74ap1","indices":[116,139],"sizes":{"small":{"w":680,"h":680,"resize":"fit"},"large":{"w":700,"h":700,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":700,"h":700,"resize":"fit"}},"id_str":"1138261445454512128","expanded_url":"https://twitter.com/BeverageFinder/status/1138261446415003654/photo/1","media_url_https":"https://pbs.twimg.com/media/D8vqwP3WwAA23Pz.jpg","id":1138261445454512128,"type":"photo","media_url":"http://pbs.twimg.com/media/D8vqwP3WwAA23Pz.jpg","url":"https://t.co/F4mDm74ap1"}],"user_mentions":[{"indices":[0,12],"screen_name":"JamesHareUK","id_str":"898725309113135104","name":"James Hare","id":898725309113135104}],"symbols":[]},"display_text_range":[13,115],"contributors":null,"user":{"utc_offset":null,"friends_count":0,"profile_image_url_https":"https://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","listed_count":0,"profile_background_image_url":"","default_profile_image":false,"favourites_count":0,"description":"I am a helpful application that will reply with a recipe to a tweet containing a drink name. e.g. tweet \"margarita\" @BeverageFinder. Created by @JamesHareUK","created_at":"Sun Apr 28 21:26:56 +0000 2019","is_translator":false,"profile_background_image_url_https":"","protected":false,"screen_name":"BeverageFinder","id_str":"1122613190993555458","profile_link_color":"1DA1F2","translator_type":"none","id":1122613190993555458,"geo_enabled":false,"profile_background_color":"F5F8FA","lang":null,"profile_sidebar_border_color":"C0DEED","profile_text_color":"333333","verified":false,"profile_image_url":"http://pbs.twimg.com/profile_images/1136110008847020037/e3uAbnv8_normal.png","time_zone":null,"url":null,"contributors_enabled":false,"profile_background_tile":false,"profile_banner_url":"https://pbs.twimg.com/profile_banners/1122613190993555458/1559704725","statuses_count":13,"follow_request_sent":null,"followers_count":1,"profile_use_background_image":true,"default_profile":true,"following":null,"name":"BeverageFinder","location":null,"profile_sidebar_fill_color":"DDEEF6","notifications":null}}
+2019-06-10 20:47:36,801  INFO [Twitter4J Async Dispatcher[0]] - This status was posted by @BeverageFinder.
