@@ -20,31 +20,41 @@ public class TweetStreamListener {
                 try {
                     String searchString = status.getText().replace("@BeverageFinder", "").trim().replace(" ", "&");
                     String[] result = retriever.getDrink(searchString).split("::::");
-                    StatusUpdate statusUpdate1of2 = new StatusUpdate(
-                            "@" + status.getUser().getScreenName() + " "
-                                    + result[0]
-                    );
-                    if (result[2].equals("true")) {
-                        statusUpdate1of2.setMedia(new File("tmp/images/DrinkImage.jpg"));
-                    }
-                    statusUpdate1of2.inReplyToStatusId(status.getId());
-                    twitter.updateStatus(statusUpdate1of2);
-                    LOGGER.info("Tweet 1 of 2 sent to " + status.getUser().getScreenName());
+                    if (result.length == 1) {
+                        StatusUpdate drinkDoesNotExistStatusUpdate = new StatusUpdate(
+                                "@" + status.getUser().getScreenName() + " "
+                                        + result[0]
+                        );
+                        drinkDoesNotExistStatusUpdate.inReplyToStatusId(status.getId());
+                        twitter.updateStatus(drinkDoesNotExistStatusUpdate);
+                        LOGGER.info("Drink does not exist status update sent to " + status.getUser().getScreenName());
+                    } else {
+                        StatusUpdate statusUpdate1of2 = new StatusUpdate(
+                                "@" + status.getUser().getScreenName() + " "
+                                        + result[0]
+                        );
+                        if (result[2].equals("true")) {
+                            statusUpdate1of2.setMedia(new File("tmp/images/DrinkImage.jpg"));
+                        }
+                        statusUpdate1of2.inReplyToStatusId(status.getId());
+                        twitter.updateStatus(statusUpdate1of2);
+                        LOGGER.info("Tweet 1 of 2 sent to " + status.getUser().getScreenName());
 
-                    StatusUpdate statusUpdate2of2 = new StatusUpdate(
-                            "@" + status.getUser().getScreenName() + " "
-                                    + result[1]
-                    );
-                    if (result[2].equals("true")) {
-                        statusUpdate2of2.setMedia(new File("tmp/images/DrinkImage.jpg"));
-                    }
-                    statusUpdate2of2.inReplyToStatusId(status.getId());
-                    twitter.updateStatus(statusUpdate2of2);
-                    LOGGER.info("Tweet 2 of 2 sent to " + status.getUser().getScreenName());
+                        StatusUpdate statusUpdate2of2 = new StatusUpdate(
+                                "@" + status.getUser().getScreenName() + " "
+                                        + result[1]
+                        );
+                        if (result[2].equals("true")) {
+                            statusUpdate2of2.setMedia(new File("tmp/images/DrinkImage.jpg"));
+                        }
+                        statusUpdate2of2.inReplyToStatusId(status.getId());
+                        twitter.updateStatus(statusUpdate2of2);
+                        LOGGER.info("Tweet 2 of 2 sent to " + status.getUser().getScreenName());
 
-                    if (result[2].equals("true")) {
-                        File tmpImageFile = new File("tmp/images/DrinkImage.jpg");
-                        tmpImageFile.delete();
+                        if (result[2].equals("true")) {
+                            File tmpImageFile = new File("tmp/images/DrinkImage.jpg");
+                            tmpImageFile.delete();
+                        }
                     }
                 } catch (TwitterException exception) {
                     LOGGER.error(exception.getMessage());

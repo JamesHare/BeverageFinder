@@ -114,5 +114,6 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>BeverageFinder</finalName>
     </build>
 </project>
