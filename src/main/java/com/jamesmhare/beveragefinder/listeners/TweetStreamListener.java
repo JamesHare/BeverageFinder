@@ -16,6 +16,8 @@ public class TweetStreamListener {
             DrinkRetriever retriever = new DrinkRetriever();
             if (status.getUser().getScreenName().equals("BeverageFinder")) {
                 LOGGER.info("This status was posted by @BeverageFinder.");
+            } else if (status.getText().contains("RT")) {
+                LOGGER.info("This is a retweet. Status will be ignored.");
             } else {
                 try {
                     String searchString = status.getText().replace("@BeverageFinder", "").trim().replace(" ", "&");
